@@ -1,0 +1,24 @@
+const morgan = require('morgan')
+const express = require('express')
+const app = express()
+const myconnection = require('express-myconnection')
+const path = require('path')
+const Cors = require('cors')
+const history = require('connect-history-api-fallback')
+const dotenv = require('dotenv')
+
+
+app.use(morgan('tiny'))
+app.use(Cors())
+app.use(express.json())
+app.use(express.urlencoded({extended: true}))
+app.use(history())
+app.use(express.static(path.join(__dirname, 'public')))
+dotenv.config({path: `.env`})
+app.use('/api', require('./routers/routers'))
+
+app.set('port', process.env.PORT || 3000)
+
+app.listen(app.get('port'), () => {
+    console.log('Port active', app.get('port'))
+})
