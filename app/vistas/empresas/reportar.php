@@ -7,7 +7,7 @@ $_SESSION['sesion']['id_empresa'] = $id; //creamos esta variable para usarla en 
 $id_u = $_SESSION['sesion']['id']; 
 $sede = $_SESSION['sesion']['id_sede'];
 
-$empresa = empresa($conexion,$id);
+$empresa = empresa($conexion,$id); 
 if ($dato = mysqli_fetch_assoc($empresa) ) {
   $nombre = $dato['nombre'];
   $detalle = $dato['detalle'];
@@ -401,8 +401,7 @@ $fecha=fecha($conexion);
             <h6>AÑADIR ADJUNTOS:</h6>
             <section>
               <div class="col-lg-2 col-md-2">
-                <!-- <a href="#" role="button" class="form-control pull-left btn btn-primary btn-sm" id="btnarchivo" name="btnarchivo">Añadir</a> -->
-                <input type="file" name="file[]" id="file" multiple>
+                <input type="file" name="filed[]" id="filed" multiple>
               </div>
             </section><br>
             <!-- ################################### Mejoras YEISON ################################## -->
@@ -540,7 +539,7 @@ $fecha=fecha($conexion);
                           <?php
                            $contador=$contador+1;
                         }
-                      endwhile; ?> 
+                      endwhile; ?>
                 </table>
                 
              <hr>
@@ -576,9 +575,19 @@ $fecha=fecha($conexion);
             </section><br>
             
             <!-- ################################### Mejoras YEISON ################################## -->
+            <h6>ARCHIVOS ADJUNTADOS:</h6>
+            <section>
+              <div class="col-lg-12 col-md-12">
+                <ul id="listaModDia">
+
+                </ul>
+              </div>
+            </section><br>
             <h6>AÑADIR ADJUNTOS:</h6>
             <section>
-             <textarea class="form-control" name="txtactividades" id="txtactividades"></textarea>
+              <div class="col-lg-2 col-md-2">
+                <input type="file" name="filemd[]" id="filemd" multiple>
+              </div>
             </section><br>
             <!-- ################################### Mejoras YEISON ################################## -->
 
@@ -626,7 +635,7 @@ $fecha=fecha($conexion);
 
 
   <form class="form" name="form_evento" id="form_evento" enctype="multipart/form-data">
-    <div id="wizard1"> 
+    <div id="wizard1">
 
             <section>
            
@@ -783,7 +792,7 @@ $fecha=fecha($conexion);
              <textarea class="form-control" name="txtacciones" id="txtacciones"></textarea>
             </section><br>
 
-            <h6>RECOMENDACIONES : </h6>
+            <h6>RECOMENDACIONES: </h6>
             <section>
              <textarea class="form-control" name="txtrecomendaciones" id="txtrecomendaciones"></textarea>
             </section><br>
@@ -791,7 +800,9 @@ $fecha=fecha($conexion);
             <!-- ################################### Mejoras YEISON ################################## -->
             <h6>AÑADIR ADJUNTOS:</h6>
             <section>
-             <textarea class="form-control" name="txtactividades" id="txtactividades"></textarea>
+              <div class="col-lg-2 col-md-2">
+                <input type="file" name="fileev[]" id="fileev" multiple>
+              </div>
             </section><br>
             <!-- ################################### Mejoras YEISON ################################## -->
 
@@ -994,15 +1005,25 @@ $fecha=fecha($conexion);
              <textarea class="form-control" name="txtaccionesmod" id="txtaccionesmod"></textarea>
             </section><br>
 
-            <h6>RECOMENDACIONES : </h6>
+            <h6>RECOMENDACIONES: </h6>
             <section>
              <textarea class="form-control" name="txtrecomendacionesmod" id="txtrecomendacionesmod"></textarea>
             </section><br>
 
             <!-- ################################### Mejoras YEISON ################################## -->
+            <h6>ARCHIVOS ADJUNTADOS:</h6>
+            <section>
+              <div class="col-lg-12 col-md-12">
+                <ul id="listaModEve">
+
+                </ul>
+              </div>
+            </section><br>
             <h6>AÑADIR ADJUNTOS:</h6>
             <section>
-             <textarea class="form-control" name="txtactividades" id="txtactividades"></textarea>
+              <div class="col-lg-2 col-md-2">
+                <input type="file" name="filemev[]" id="filemev" multiple>
+              </div>
             </section><br>
             <!-- ################################### Mejoras YEISON ################################## -->
 
@@ -1189,7 +1210,7 @@ $fecha=fecha($conexion);
              <textarea class="form-control" name="txtanalisis" id="txtanalisis"></textarea>
             </section><br>
 
-             <h6>RECOMENDACIONES:: </h6>
+             <h6>RECOMENDACIONES: </h6>
             <section>
              <textarea class="form-control" name="txtrecomendacionesR" id="txtrecomendacionesR"></textarea>
             </section><br>
@@ -1202,7 +1223,9 @@ $fecha=fecha($conexion);
             <!-- ################################### Mejoras YEISON ################################## -->
             <h6>AÑADIR ADJUNTOS:</h6>
             <section>
-             <textarea class="form-control" name="txtactividades" id="txtactividades"></textarea>
+              <div class="col-lg-2 col-md-2">
+                <input type="file" name="filer[]" id="filer" multiple>
+              </div>
             </section><br>
             <!-- ################################### Mejoras YEISON ################################## -->
 
@@ -1389,7 +1412,7 @@ $fecha=fecha($conexion);
              <textarea class="form-control" name="txtanalisismod" id="txtanalisismod"></textarea>
             </section><br>
 
-             <h6>RECOMENDACIONES:: </h6>
+             <h6>RECOMENDACIONES: </h6>
             <section>
              <textarea class="form-control" name="txtrecomendacionesRmod" id="txtrecomendacionesRmod"></textarea>
             </section><br>
@@ -1400,9 +1423,19 @@ $fecha=fecha($conexion);
             </section><br>
 
             <!-- ################################### Mejoras YEISON ################################## -->
+            <h6>ARCHIVOS ADJUNTADOS:</h6>
+            <section>
+              <div class="col-lg-12 col-md-12">
+                <ul id="listaModRies">
+
+                </ul>
+              </div>
+            </section><br>
             <h6>AÑADIR ADJUNTOS:</h6>
             <section>
-             <textarea class="form-control" name="txtactividades" id="txtactividades"></textarea>
+              <div class="col-lg-2 col-md-2">
+                <input type="file" name="filemr[]" id="filemr" multiple>
+              </div>
             </section><br>
             <!-- ################################### Mejoras YEISON ################################## -->
 

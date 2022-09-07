@@ -105,7 +105,6 @@
     function obtener_evento_editar(tbody, table){
           $(tbody).on("click", "button.editarE", function(){
           data = table.row( $(this).parents("tr") ).data();
-          console.log(data);
 
              $("#editareventomod").html( "EDITAR Reporte de Evento\nNro: "+ data.id );
              $("#controlevento").val( data.id);
@@ -123,6 +122,46 @@
                 $(".noE").prop("checked", true);
              }
 
+             //YEISON
+            obj={
+            id_reporte: data.id,
+            tipo: "evento"
+            }
+            let ruta = "../app/consultas/reportes/buscarfiles.php";
+            $.getJSON(
+              ruta,
+              obj,
+              (data) => {
+                console.log("PETICION ENVIADA "+data);
+              }
+            )
+            .done( (result) => {
+              if(result){
+                let arrayAll = result.files.split(",");
+                arrayAll.forEach(element => {
+                  let tipoarchivo = element.split('.');
+                  if(tipoarchivo[1]==='png' || tipoarchivo[1]==='jpg' || tipoarchivo[1]==='jpeg') {
+                    $(`<li class="lista pip" style="list-style: none; background-image: url('../img/icono_img.png');"><button type="button" class="close" aria-label="Close" id="ximg"><span style="color: red;">&times;</span></button><span>${element}</span></li>`).insertAfter("#listaModEve");
+                    $('#ximg').click(function() {
+                      $(this).parent('.pip').remove();
+                    });
+                  }
+                  if (tipoarchivo[1]==='docx' || tipoarchivo[1]==='doc' || tipoarchivo[1]==='xls' || tipoarchivo[1]==='xlsx' || tipoarchivo[1]==='pptx' || tipoarchivo[1]==='ppt' || tipoarchivo[1]==='pdf' || tipoarchivo[1]==='txt') {
+                    $(`<li class="lista pip" style="list-style: none; background-image: url('../img/archivo.png');"><button type="button" class="close" aria-label="Close" id="xarchi"><span style="color: red;">&times;</span></button><span>${element}</span></li>`).insertAfter("#listaModEve");
+                    $('#xarchi').click(function() {
+                      $(this).parent('.pip').remove();
+                    });
+                  }
+                  if(tipoarchivo[1]==='mp4' || tipoarchivo[1]==='mkv' || tipoarchivo[1]==='avi' || tipoarchivo[1]==='mov') {
+                    $(`<li class="lista pip" style="list-style: none; background-image: url('../img/camara-de-video.png');"><button type="button" class="closevideo" aria-label="Close" id="xvideo"><span style="color: red;">&times;</span></button><span>${element}</span></li>`).insertAfter("#listaModEve");
+                    $('#xvideo').click(function() {
+                      $(this).parent('.pip').remove();
+                    });
+                  }
+                });
+              }
+            });
+            //YEISON
           });
     }
     function actualizar_evento_editar(){
@@ -172,23 +211,87 @@
               //Creamos la Variable que recibira el "Value" de todos los Input que esten dentro del Form
               var datos = $("#form_eventomod").serialize();
 
-               $.ajax({
-                  type: "POST",
-                  url: "../app/consultas/reportes/actualizar_evento.php",
-                  data: datos,
-                  success: function(resultado) {
-                    console.log(resultado);
-                    if (resultado == 1) {
-                        alertify.log("Se ha Modificado Correctamente", "success",1500);
-                        limpiarevento();                      
-                        $("#modaleventomod").modal('hide');
-                        $("#dt_eventos").DataTable().ajax.url( 'consultas/datatables/dt_eventos.php' ).load(); 
-                      }
-                      if (resultado == 2 ) {
-                        alertify.log("Ocurrio un error", "error",1500);
-                      }
+              let oldfiles = "";
+              $.each($('.pip'), (index, ele)=>{
+                if (oldfiles === "") {
+                  oldfiles = $(ele).text().substr(1);
+                } else {
+                  oldfiles = oldfiles + ',' + $(ele).text().substr(1);
+                }
+              });
+              let newfiles = $("#filemev")[0].files;
 
+              $.ajax({
+                type: "POST",
+                url: "../app/consultas/reportes/actualizar_evento.php",
+                data: datos,
+                success: function(resultado) {
+                  console.log(resultado);
+                  if (resultado == 1) {
+                    let formData = new FormData();
+                    let controlevento = $('#controlevento').val();
+                    formData.append('controlevento',controlevento);
+                    if (oldfiles.length > 0 && newfiles.length > 0) {
+                      formData.append('oldfiles',oldfiles);
+                      for (let i=0; i < newfiles.length; i++) {
+                        formData.append('newfiles[]', newfiles[i]);
+                      }
+                      console.log("oldfiles.length > 0 && newfiles.length > 0");
+                    }
+                    if (oldfiles.length === 0 && newfiles.length !== 0) {
+                      for (let i=0; i < newfiles.length; i++) {
+                        formData.append('newfiles[]', newfiles[i]);
+                      }
+                      console.log("oldfiles.length === 0 && newfiles.length !== 0");
+                    }
+                    if (oldfiles.length !== 0 && newfiles.length === 0) {
+                      formData.append('oldfiles', oldfiles);
+                      console.log("oldfiles.length !== 0 && newfiles.length === 0");
+                    }
+                    $.ajax({
+                      method: "POST",
+                      url: "../app/consultas/reportes/editfiles_evento.php",
+                      data: formData,
+                      contentType: false,
+                      processData: false,
+                      success: function(result) {
+                        if (result == 0 ) {
+                          console.log("result = 0");
+                          alertify.log("Se ha Modificado Correctamente", "success",1500);
+                          limpiarevento();                      
+                          $("#modaleventomod").modal('hide');
+                          $("#dt_eventos").DataTable().ajax.url( 'consultas/datatables/dt_eventos.php' ).load();
+                        }
+                        if (result == 7 ) {
+                          console.log("result = 7");
+                          alertify.log("Ocurrio un error, Archivos Vacíos", "error",1500);
+                        }
+                        if (result == 6 ) {
+                          console.log("result = 6");
+                          alertify.log("Ocurrio un error al guardar adjuntos", "error",1500);
+                        }
+                        if (result == 5 ) {
+                          console.log("result = 5");
+                          alertify.log("Problemas con las rutas para guardar adjuntos", "error",1500);
+                        }
+                      }
+                    })
+                    .done(()=>{
+                      console.log("request ready");
+                    })
+                    .fail((jqXHR)=>{
+                      console.log("FAIL FILES");
+                      console.log(jqXHR);
+                    });
                   }
+                  if (resultado == 2 ) {
+                    alertify.log("Ocurrio un error", "error",1500);
+                  }
+                }
+              })
+              .fail((jqXHR)=>{
+                console.log("FAIL POST");
+                console.log(jqXHR);
               }); //Terminamos la Funcion Ajax
               return false; //Agregamos el Return para que no Recargue la Pagina al Enviar el Formulario 
 
@@ -263,32 +366,68 @@
                   return false;
               }
 
+              var files = $("#fileev").val();
+              if (files == "") {
+                alertify.log("Ingrese adjuntos", "error",1500);
+                $("#fileev").focus();
+                return false;
+              }
+
               //Creamos la Variable que recibira el "Value" de todos los Input que esten dentro del Form
               var datos = $("#form_evento").serialize();
 
               $.ajax({
-                  type: "POST",
-                  url: "../app/consultas/reportes/agregar_evento.php",
-                  data: datos,
-                  success: function(resultado) {
-                    console.log(resultado);
-                    if (resultado == 1) {
-                        alertify.log("Se ha registrado Correctamente", "success",1500);
-                        limpiarevento();
-                      $("#modalevento").modal('hide');
-                      $("#dt_eventos").DataTable().ajax.url( 'consultas/datatables/dt_eventos.php' ).load();
+                type: "POST",
+                url: "../app/consultas/reportes/agregar_evento.php",
+                data: datos,
+                success: function(resultado) {
+                  console.log(resultado);
+                  if (resultado == 1) {
+                    let archivos = $("#fileev")[0].files;
+                    var formData = new FormData();
+                    for (let i=0; i < archivos.length; i++) {
+                      formData.append("files[]",archivos[i]);
+                    }
+                    $.ajax({
+                      method: "POST",
+                      url: "../app/consultas/reportes/subirfile_evento.php",
+                      data: formData,
+                      contentType: false,
+                      processData: false,
+                      success: function(result) {
+                        if (result == 0 ) {
+                          console.log("result = 0");
+                          alertify.log("Se ha registrado Correctamente", "success",1500);
+                          limpiarevento();
+                          $("#modalevento").modal('hide');
+                          $("#dt_eventos").DataTable().ajax.url( 'consultas/datatables/dt_eventos.php' ).load();
+                        }
+                        if (result == 7 ) {
+                          console.log("result = 7");
+                          alertify.log("Ocurrio un error, Archivos Vacíos", "error",1500);
+                        }
+                        if (result == 6 ) {
+                          console.log("result = 6");
+                          alertify.log("Ocurrio un error al guardar adjuntos", "error",1500);
+                        }
+                        if (result == 5 ) {
+                          console.log("result = 5");
+                          alertify.log("Problemas con las rutas para guardar adjuntos", "error",1500);
+                        }
                       }
-                      if (resultado == 3 ) {
-                        alertify.log("Ocurrio un error", "error",1500);
-                      }
-                       if (resultado == 2 ) {
-                        alertify.log("Reporte ya existe para esta fecha asignada", "standard",2500);
-                        $("#txtfecha").focus();
-                      }
-                       if (resultado == 4 ) {
-                        alertify.log("Elija almenos un Evento", "error",1500);
-                      }
+                    });
                   }
+                  if (resultado == 3 ) {
+                    alertify.log("Ocurrio un error", "error",1500);
+                  }
+                    if (resultado == 2 ) {
+                    alertify.log("Reporte ya existe para esta fecha asignada", "standard",2500);
+                    $("#txtfecha").focus();
+                  }
+                    if (resultado == 4 ) {
+                    alertify.log("Elija almenos un Evento", "error",1500);
+                  }
+                }
               }); //Terminamos la Funcion Ajax
               return false; //Agregamos el Return para que no Recargue la Pagina al Enviar el Formulario  */
             });
@@ -302,8 +441,12 @@
       $( "textarea.b" ).val( '' );
       $( "textarea.b" ).attr("hidden","hidden");
       $("#txtorganismo").val( '' );
-      $("#txtacciones").val( '' ); 
-      $("#txtrecomendaciones").val( '' ); 
+      $("#txtacciones").val( '' );
+      $("#txtrecomendaciones").val( '' );
+      $("#fileev").val('');
+      $("#filemev").val('');
+      $(".pip").remove();
+
     }
     $('#btncancelarE').click(function(){ 
          limpiarevento();
@@ -415,7 +558,6 @@
     function obtener_diario_editar(tbody, table){
           $(tbody).on("click", "button.editar", function(){
           data = table.row( $(this).parents("tr") ).data();
-           console.log(data);
              $("#editardiario").html( "EDITAR Reporte de actividades\nNro: "+data.id );
              $("#controldiario").val(data.id);
              $("#txtfechamod").val( data.fecha );
@@ -430,7 +572,46 @@
              if (aco != "") {
                 $(".si").prop("checked", true);
              }
-
+             //YEISON
+             obj={
+              id_reporte: data.id,
+              tipo: "diario"
+             }
+             let ruta = "../app/consultas/reportes/buscarfiles.php";
+             $.getJSON(
+              ruta,
+              obj,
+              (data) => {
+                console.log("PETICION ENVIADA "+data);
+              }
+            )
+            .done( (result) => {
+              if(result){
+                let arrayAll = result.files.split(",");
+                arrayAll.forEach(element => {
+                  let tipoarchivo = element.split('.');
+                  if(tipoarchivo[1]==='png' || tipoarchivo[1]==='jpg' || tipoarchivo[1]==='jpeg') {
+                    $(`<li class="lista pip" style="list-style: none; background-image: url('../img/icono_img.png');"><button type="button" class="close" aria-label="Close" id="ximg"><span style="color: red;">&times;</span></button><span>${element}</span></li>`).insertAfter("#listaModDia");
+                    $('#ximg').click(function() {
+                      $(this).parent('.pip').remove();
+                    });
+                  }
+                  if (tipoarchivo[1]==='docx' || tipoarchivo[1]==='doc' || tipoarchivo[1]==='xls' || tipoarchivo[1]==='xlsx' || tipoarchivo[1]==='pptx' || tipoarchivo[1]==='ppt' || tipoarchivo[1]==='pdf' || tipoarchivo[1]==='txt') {
+                    $(`<li class="lista pip" style="list-style: none; background-image: url('../img/archivo.png');"><button type="button" class="close" aria-label="Close" id="xarchi"><span style="color: red;">&times;</span></button><span>${element}</span></li>`).insertAfter("#listaModDia");
+                    $('#xarchi').click(function() {
+                      $(this).parent('.pip').remove();
+                    });
+                  }
+                  if(tipoarchivo[1]==='mp4' || tipoarchivo[1]==='mkv' || tipoarchivo[1]==='avi' || tipoarchivo[1]==='mov') {
+                    $(`<li class="lista pip" style="list-style: none; background-image: url('../img/camara-de-video.png');"><button type="button" class="closevideo" aria-label="Close" id="xvideo"><span style="color: red;">&times;</span></button><span>${element}</span></li>`).insertAfter("#listaModDia");
+                    $('#xvideo').click(function() {
+                      $(this).parent('.pip').remove();
+                    });
+                  }
+                });
+              }
+            });
+            //YEISON
           });
     }
     function actualizar_diario_editar(){
@@ -472,6 +653,18 @@
             //Creamos la Variable que recibira el "Value" de todos los Input que esten dentro del Form
             var datos = $("#form_diariomod").serialize();
 
+            ///////////////////////////YEISON//////////////////////////
+
+            let oldfiles = "";
+            $.each($('.pip'), (index, ele)=>{
+              if (oldfiles === "") {
+                oldfiles = $(ele).text().substr(1);
+              } else {
+                oldfiles = oldfiles + ',' + $(ele).text().substr(1);
+              }
+            });
+            let newfiles = $("#filemd")[0].files;
+
              $.ajax({
                 type: "POST",
                 url: "../app/consultas/reportes/actualizar_diario.php",
@@ -479,14 +672,65 @@
                 success: function(resultado) {
                   console.log(resultado);
                   if (resultado == 1) {
-                      alertify.log("Se ha Modificado Correctamente", "success",1500);
-                      $("#modaldiariomod").modal('hide');
-                      limpiardiario();    
-                      $("#dt_diarios").DataTable().ajax.url( 'consultas/datatables/dt_diarios.php' ).load();          
+                    let formData = new FormData();
+                    let controldiario = $('#controldiario').val();
+                    formData.append('controldiario',controldiario);
+                    if (oldfiles.length > 0 && newfiles.length > 0) {
+                      formData.append('oldfiles',oldfiles);
+                      for (let i = 0; i < newfiles.length; i++) {
+                        formData.append('newfiles[]',newfiles[i]);
+                      }
+                      console.log("oldfiles.length > 0 && newfiles.length > 0");
                     }
-                    if (resultado == 2 ) {
-                      alertify.log("Ocurrio un error", "error",1500);
+                    if (oldfiles.length === 0 && newfiles.length !== 0) {
+                      for (let i=0; i < newfiles.length; i++){
+                        formData.append('newfiles[]', newfiles[i]);
+                      }
+                      console.log("oldfiles.length === 0 && newfiles.length !== 0");
                     }
+                    if (oldfiles.length !== 0 && newfiles.length === 0) {
+                      formData.append('oldfiles',oldfiles);
+                      console.log("oldfiles.length !== 0 && newfiles.length === 0");
+                    }
+                    $.ajax({
+                      method: "POST",
+                      url: "../app/consultas/reportes/editfiles_diario.php",
+                      data: formData,
+                      contentType: false,
+                      processData: false,
+                      success: function(result) {
+                        if (result == 0 ) {
+                          console.log("result = 0");
+                          alertify.log("Se ha Modificado Correctamente", "success",1500);
+                          limpiardiario();
+                          $("#modaldiariomod").modal('hide');
+                          $("#dt_diarios").DataTable().ajax.url( 'consultas/datatables/dt_diarios.php' ).load();
+                        }
+                        if (result == 7 ) {
+                          console.log("result = 7");
+                          alertify.log("Ocurrio un error, Archivos Vacíos", "error",1500);
+                        }
+                        if (result == 6 ) {
+                          console.log("result = 6");
+                          alertify.log("Ocurrio un error al guardar adjuntos", "error",1500);
+                        }
+                        if (result == 5 ) {
+                          console.log("result = 5");
+                          alertify.log("Problemas con las rutas para guardar adjuntos", "error",1500);
+                        }
+                      }
+                    })
+                    .done(()=>{
+                      console.log("request ready");
+                    })
+                    .fail((jqXHR)=>{
+                      console.log("FAIL FILES");
+                      console.log(jqXHR);
+                    });        
+                  }
+                  if (resultado == 2 ) {
+                    alertify.log("Ocurrio un error", "error",1500);
+                  }
                 }
             }); //Terminamos la Funcion Ajax
             return false; //Agregamos el Return para que no Recargue la Pagina al Enviar el Formulario 
@@ -545,10 +789,10 @@
                   return false;
               } 
 
-              var files = $("#file").val();
+              var files = $("#filed").val();
               if (files == "") {
                 alertify.log("Ingrese adjuntos", "error",1500);
-                $("#archivos").focus();
+                $("#filed").focus();
                 return false;
               }
               //Creamos la Variable que recibira el "Value" de todos los Input que esten dentro del Form
@@ -559,7 +803,8 @@
                   data: datos,
                   success: function(resultado) {
                     if (resultado == 1) {
-                      let archivos = $("#file")[0].files;
+                      console.log("Entro en resultado = 1");
+                      let archivos = $("#filed")[0].files;
                       var formData = new FormData();
                       for (let i=0; i < archivos.length; i++) {
                         formData.append("files[]",archivos[i]);
@@ -572,26 +817,22 @@
                         processData: false,
                         success: function(result) {
                           if (result == 0 ) {
-                            console.log('resultado igual a cero');
                             alertify.log("Se ha registrado Correctamente", "success",1500);
                             limpiardiario();
                             $("#modaldiario").modal('hide');
                             $("#dt_diarios").DataTable().ajax.url( 'consultas/datatables/dt_diarios.php' ).load();
                           }
                           if (result == 7 ) {
-                            console.log('Resul == 7');
                             alertify.log("Ocurrio un error, Archivos Vacíos", "error",1500);
                           }
                           if (result == 6 ) {
-                            console.log('Resul == 6');
                             alertify.log("Ocurrio un error al guardar adjuntos", "error",1500);
                           }
                           if (result == 5 ) {
-                            console.log('Resul == 5');
                             alertify.log("Problemas con las rutas para guardar adjuntos", "error",1500);
                           }
                         }
-                      });     
+                      });
                     }
                     if (resultado == 3 ) {
                       alertify.log("Ocurrio un error", "error",1500);
@@ -622,7 +863,9 @@
         $("#txtacompanantemod").val( '' );
         $("#txtcargomod").val( '' );
         $("#editardiario").html( "EDITAR Reporte de actividades");
-        $("#files").val( '' );
+        $("#filed").val( '' );
+        $(".pip").remove();
+        $("#filemd").val('');
     }
      $('#btncancelar').click(function(){ 
         limpiardiario();
@@ -715,7 +958,6 @@
     function obtener_riesgo_editar(tbody, table){
           $(tbody).on("click", "button.editar", function(){
           data = table.row( $(this).parents("tr") ).data();
-           console.log(data);
              $("#editariesgo").html( "EDITAR Reporte de riesgo\nNro: "+data.id );
              $("#controlriesgo").val(data.id);
              $("#txtfechaRmod2").val( data.fecha );
@@ -746,8 +988,46 @@
              if (clas == 4) {
                 $(".muy_alto").prop("checked", true);
              }
-
-
+//YEISON
+            obj={
+            id_reporte: data.id,
+            tipo: "riesgo"
+            }
+            let ruta = "../app/consultas/reportes/buscarfiles.php";
+            $.getJSON(
+              ruta,
+              obj,
+              (data) => {
+                console.log("PETICION ENVIADA "+data);
+              }
+            )
+            .done( (result) => {
+              if(result){
+                let arrayAll = result.files.split(",");
+                arrayAll.forEach(element => {
+                  let tipoarchivo = element.split('.');
+                  if(tipoarchivo[1]==='png' || tipoarchivo[1]==='jpg' || tipoarchivo[1]==='jpeg') {
+                    $(`<li class="lista pip" style="list-style: none; background-image: url('../img/icono_img.png');"><button type="button" class="close" aria-label="Close" id="ximg"><span style="color: red;">&times;</span></button><span>${element}</span></li>`).insertAfter("#listaModRies");
+                    $('#ximg').click(function() {
+                      $(this).parent('.pip').remove();
+                    });
+                  }
+                  if (tipoarchivo[1]==='docx' || tipoarchivo[1]==='doc' || tipoarchivo[1]==='xls' || tipoarchivo[1]==='xlsx' || tipoarchivo[1]==='pptx' || tipoarchivo[1]==='ppt' || tipoarchivo[1]==='pdf' || tipoarchivo[1]==='txt') {
+                    $(`<li class="lista pip" style="list-style: none; background-image: url('../img/archivo.png');"><button type="button" class="close" aria-label="Close" id="xarchi"><span style="color: red;">&times;</span></button><span>${element}</span></li>`).insertAfter("#listaModRies");
+                    $('#xarchi').click(function() {
+                      $(this).parent('.pip').remove();
+                    });
+                  }
+                  if(tipoarchivo[1]==='mp4' || tipoarchivo[1]==='mkv' || tipoarchivo[1]==='avi' || tipoarchivo[1]==='mov') {
+                    $(`<li class="lista pip" style="list-style: none; background-image: url('../img/camara-de-video.png');"><button type="button" class="closevideo" aria-label="Close" id="xvideo"><span style="color: red;">&times;</span></button><span>${element}</span></li>`).insertAfter("#listaModRies");
+                    $('#xvideo').click(function() {
+                      $(this).parent('.pip').remove();
+                    });
+                  }
+                });
+              }
+            });
+//YEISON
           });
     }
     function actualizar_riesgo_editar(){
@@ -797,6 +1077,16 @@
             //Creamos la Variable que recibira el "Value" de todos los Input que esten dentro del Form
             var datos = $("#form_riesgomod").serialize();
 
+            ///////////////////////////////YEISON/////////////////////////
+            let oldfiles = "";
+            $.each($('.pip'), (index, ele)=>{
+              if (oldfiles === "") {
+                oldfiles = $(ele).text().substr(1);
+              } else {
+                oldfiles = oldfiles + ',' + $(ele).text().substr(1);
+              }
+            });
+            let newfiles = $("#filemr")[0].files;
              $.ajax({
                 type: "POST",
                 url: "../app/consultas/reportes/actualizar_riesgo.php",
@@ -804,14 +1094,66 @@
                 success: function(resultado) {
                   console.log(resultado);
                   if (resultado == 1) {
-                      alertify.log("Se ha Modificado Correctamente", "success",1500);
-                      limpiardiario();                      
-                      $("#modalriesgomod").modal('hide');
-                      $("#dt_riesgos").DataTable().ajax.url( 'consultas/datatables/dt_riesgos.php' ).load(); 
+                    let formData = new FormData();
+                    let controlriesgo = $('#controlriesgo').val();
+                    formData.append('controlriesgo',controlriesgo);
+                    if (oldfiles.length > 0 && newfiles.length > 0) {
+                      console.log("oldfiles.length > 0  && newfiles.length > 0 ");
+                      formData.append('oldfiles',oldfiles);
+                      for (let i=0; i < newfiles.length; i++) {
+                        formData.append('newfiles[]',newfiles[i]);
+                      }
+                      console.log("oldfiles.length > 0 && newfiles.length > 0");
                     }
-                    if (resultado == 2 ) {
-                      alertify.log("Ocurrio un error", "error",1500);
+                    if (oldfiles.length === 0 && newfiles.length !== 0) {
+                      for (let i = 0; i < newfiles.length; i++){
+                        formData.append('newfiles[]',newfiles[i]);
+                      }
+                      console.log("oldfiles.length === 0 && newfiles.length !== 0");
                     }
+                    if (oldfiles.length !== 0 && newfiles.length === 0) {
+                      formData.append('oldfiles',oldfiles);
+                      console.log("oldfiles.length !== 0 && newfiles.length === 0");
+                    }
+                    $.ajax({
+                      method: "POST",
+                      url: "../app/consultas/reportes/editfiles_riesgo.php",
+                      data: formData,
+                      contentType: false,
+                      processData: false,
+                      success: function(result) {
+                        if (result == 0 ) {
+                          console.log("result = 0");
+                          alertify.log("Se ha Modificado Correctamente", "success",1500);
+                          limpiarRiesgo();                      
+                          $("#modalriesgomod").modal('hide');
+                          $("#dt_riesgos").DataTable().ajax.url( 'consultas/datatables/dt_riesgos.php' ).load();
+                        }
+                        if (result == 7 ) {
+                          console.log("result = 7");
+                          alertify.log("Ocurrio un error, Archivos Vacíos", "error",1500);
+                        }
+                        if (result == 6 ) {
+                          console.log("result = 6");
+                          alertify.log("Ocurrio un error al guardar adjuntos", "error",1500);
+                        }
+                        if (result == 5 ) {
+                          console.log("result = 5");
+                          alertify.log("Problemas con las rutas para guardar adjuntos", "error",1500);
+                        }
+                      }
+                    })
+                    .done(()=>{
+                      console.log("request ready");
+                    })
+                    .fail((jqXHR)=>{
+                      console.log("FAIL FILES");
+                      console.log(jqXHR);
+                    });
+                  }
+                  if (resultado == 2 ) {
+                    alertify.log("Ocurrio un error", "error",1500);
+                  }
                 }
             }); //Terminamos la Funcion Ajax
             return false; //Agregamos el Return para que no Recargue la Pagina al Enviar el Formulario 
@@ -888,6 +1230,13 @@
                   return false;
               }
 
+              var files = $("#filer").val();
+              if (files == "") {
+                alertify.log("Ingrese adjuntos", "error",1500);
+                $("#filer").focus();
+                return false;
+              }
+
               //Creamos la Variable que recibira el "Value" de todos los Input que esten dentro del Form
               var datos = $("#form_riesgo").serialize();
 
@@ -898,21 +1247,52 @@
                   success: function(resultado) {
                     console.log(resultado);
                     if (resultado == 1) {
-                        alertify.log("Se han registrado Correctamente", "success",1500);
-                        limpiarRiesgo();
-                      $("#modalriesgo").modal('hide');
-                         $("#dt_riesgos").DataTable().ajax.url( 'consultas/datatables/dt_riesgos.php' ).load();
+                      let archivos = $("#filer")[0].files;
+                      var formData = new FormData();
+                      for (let i=0; i < archivos.length; i++) {
+                        formData.append("files[]",archivos[i]);
                       }
-                      if (resultado == 3 ) {
-                        alertify.log("Ocurrio un error", "error",1500);
-                      }
-                       if (resultado == 2 ) {
-                        alertify.log("Reporte ya existe para esta fecha asignada", "standard",2500);
-                        $("#txtfechaR").focus();
-                      }
-                      if (resultado == 4 ) {
-                        alertify.log("Elija almenos un tipo de Riesgo", "error",1500);
-                      }
+                      console.log("Aqui FormDara "+formData.keys())
+                      $.ajax({
+                        method: "POST",
+                        url: "../app/consultas/reportes/subirfile_riesgo.php",
+                        data: formData,
+                        contentType: false,
+                        processData: false,
+                        success: function(result) {
+                          console.log("Aqui RESULT");
+                          if (result == 0 ) {
+                            console.log("RESULT = 0");
+                            alertify.log("Se han registrado Correctamente", "success",1500);
+                            limpiarRiesgo();
+                            $("#modalriesgo").modal('hide');
+                            $("#dt_riesgos").DataTable().ajax.url( 'consultas/datatables/dt_riesgos.php' ).load();
+                          }
+                          if (result == 7 ) {
+                            console.log("RESULT = 7");
+                            alertify.log("Ocurrio un error, Archivos Vacíos", "error",1500);
+                          }
+                          if (result == 6 ) {
+                            console.log("RESULT = 6");
+                            alertify.log("Ocurrio un error al guardar adjuntos", "error",1500);
+                          }
+                          if (result == 5 ) {
+                            console.log("RESULT = 5");
+                            alertify.log("Problemas con las rutas para guardar adjuntos", "error",1500);
+                          }
+                        }
+                      });
+                    }
+                    if (resultado == 3 ) {
+                      alertify.log("Ocurrio un error", "error",1500);
+                    }
+                      if (resultado == 2 ) {
+                      alertify.log("Reporte ya existe para esta fecha asignada", "standard",2500);
+                      $("#txtfechaR").focus();
+                    }
+                    if (resultado == 4 ) {
+                      alertify.log("Elija almenos un tipo de Riesgo", "error",1500);
+                    }
                   }
               }); //Terminamos la Funcion Ajax
               return false; //Agregamos el Return para que no Recargue la Pagina al Enviar el Formulario  */
@@ -925,15 +1305,19 @@
       $("#txtcargoR").val( '' );
       $( "input.a" ).prop( "checked", false );
       $("#txtanalisis").val( '' );
-      $("#txtrecomendacionesR").val( '' ); 
-      $("#txtaccionesR").val( '' ); 
+      $("#txtrecomendacionesR").val( '' );
+      $("#txtaccionesR").val( '' );
+      $("#filer").val('');
+      $("#filemr").val('');
+      $(".pip").remove();
     }
     $('#btncancelarR').click(function(){ 
          limpiarRiesgo();
          $("#modalriesgo").modal('hide');
     });
     $('#btncancelarRmod').click(function(){ 
-         $("#modalriesgomod").modal('hide');
+        $(".pip").remove();
+        $("#modalriesgomod").modal('hide');
          //
     });
 
@@ -950,23 +1334,25 @@ function cargar_asistencia(){
                   url: "../app/consultas/empresas/empleados.php",
                   data: datos,
                   success: function(resultado) {
-                    console.log(resultado);
-                    var json_info = JSON.parse(resultado);
-                     
+                    console.log(typeof resultado);
+                    // if (!ifEmptyObject(resultado)) {
+                      var json_info = JSON.parse(resultado);
+                      
 
-                       $("#vigilantes").html("");
-                       $("#matr_esperada").html("");
-                       
-                       for (var i = 0; i <= json_info.matricula; i++) {
+                      $("#vigilantes").html("");
+                      $("#matr_esperada").html("");
+                      
+                      for (var i = 0; i <= json_info.matricula; i++) {
                           status="";
                           if (json_info.asistencia == i) {
                               status="selected";
                           }
 
-                         $("#vigilantes").append("<option value='"+i+"'  "+status+">"+i+"</option>");
-                       }
-                       $("#matr_esperada").html(" <h6 >/ "+json_info.matricula+" Vigilantes</h6> ")
-                  }
+                        $("#vigilantes").append("<option value='"+i+"'  "+status+">"+i+"</option>");
+                      }
+                      $("#matr_esperada").html(" <h6 >/ "+json_info.matricula+" Vigilantes</h6> ")
+                    }
+                  // }
               }); //Terminamos la Funcion Ajax
 
 }

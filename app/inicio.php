@@ -19,7 +19,7 @@
     <meta name="author" content="ThemePixels">
 
     <title>SICONG / DPCP</title>
-    <link rel="icon" type="image/png" href="../img/logopestana.jpg"/>
+    <link rel="icon" type="image/png" href="../img/logopestana.jpg">
     <!-- vendor css -->
 
     <link href="../css/bootstrap.css" rel="stylesheet">
@@ -43,7 +43,6 @@
 
     <link href="../css/dataTables.bootstrap4.min.css" rel="stylesheet">
     <link href="../css/buttons.bootstrap4.min.css" rel="stylesheet">
-    <link href="../css/adjuntos.css" rel="stylesheet">
    
   </head>
 <style type="text/css">
@@ -76,6 +75,14 @@
 
     .datot{
       text-align: center !important;
+    }
+
+    .lista{
+      margin: 0;
+      padding: 10px 10px 10px 30px;
+      display: inline-block;
+      background-repeat: no-repeat;
+      background-size: 30px;
     }
 </style>
   <body>

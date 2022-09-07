@@ -1,0 +1,815 @@
+[06-Sep-2022 14:56:32 Europe/Berlin] 76
+[06-Sep-2022 14:56:32 Europe/Berlin] 78
+[06-Sep-2022 14:56:32 Europe/Berlin] 89
+[06-Sep-2022 14:56:32 Europe/Berlin] 92
+[06-Sep-2022 14:56:32 Europe/Berlin] 159
+[06-Sep-2022 14:56:32 Europe/Berlin] 166
+[06-Sep-2022 14:56:32 Europe/Berlin] 177
+[06-Sep-2022 14:56:32 Europe/Berlin] 183
+[06-Sep-2022 14:56:32 Europe/Berlin] PHP Warning:  Undefined variable $nombrefile in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 184
+[06-Sep-2022 14:56:32 Europe/Berlin] PHP Warning:  Undefined variable $controlriesgo in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 184
+[06-Sep-2022 14:56:32 Europe/Berlin] PHP Warning:  Undefined variable $conexion in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 185
+[06-Sep-2022 14:56:32 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php:185
+Stack trace:
+#0 C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php(185): mysqli_query(NULL, 'UPDATE `adjunto...')
+#1 C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php(99): guardar('', 0)
+#2 {main}
+  thrown in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 185
+[06-Sep-2022 15:03:25 Europe/Berlin] 76
+[06-Sep-2022 15:03:25 Europe/Berlin] 78
+[06-Sep-2022 15:03:25 Europe/Berlin] 89
+[06-Sep-2022 15:03:25 Europe/Berlin] 92
+[06-Sep-2022 15:03:25 Europe/Berlin] 95
+[06-Sep-2022 15:03:25 Europe/Berlin] 161
+[06-Sep-2022 15:03:25 Europe/Berlin] 168
+[06-Sep-2022 15:03:25 Europe/Berlin] 179
+[06-Sep-2022 15:03:25 Europe/Berlin] 185
+[06-Sep-2022 15:03:25 Europe/Berlin] PHP Warning:  Undefined variable $nombrefile in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 186
+[06-Sep-2022 15:03:25 Europe/Berlin] PHP Warning:  Undefined variable $controlriesgo in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 186
+[06-Sep-2022 15:03:25 Europe/Berlin] PHP Warning:  Undefined variable $conexion in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 187
+[06-Sep-2022 15:03:25 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php:187
+Stack trace:
+#0 C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php(187): mysqli_query(NULL, 'UPDATE `adjunto...')
+#1 C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php(101): guardar('', 0)
+#2 {main}
+  thrown in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 187
+[06-Sep-2022 15:05:19 Europe/Berlin] 76
+[06-Sep-2022 15:05:19 Europe/Berlin] 78
+[06-Sep-2022 15:05:19 Europe/Berlin] 89
+[06-Sep-2022 15:05:19 Europe/Berlin] 92
+[06-Sep-2022 15:05:19 Europe/Berlin] 95 name 
+[06-Sep-2022 15:05:19 Europe/Berlin] 161
+[06-Sep-2022 15:05:19 Europe/Berlin] 168
+[06-Sep-2022 15:05:19 Europe/Berlin] 179
+[06-Sep-2022 15:05:19 Europe/Berlin] 185
+[06-Sep-2022 15:05:19 Europe/Berlin] PHP Warning:  Undefined variable $nombrefile in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 186
+[06-Sep-2022 15:05:19 Europe/Berlin] PHP Warning:  Undefined variable $controlriesgo in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 186
+[06-Sep-2022 15:05:19 Europe/Berlin] PHP Warning:  Undefined variable $conexion in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 187
+[06-Sep-2022 15:05:19 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php:187
+Stack trace:
+#0 C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php(187): mysqli_query(NULL, 'UPDATE `adjunto...')
+#1 C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php(101): guardar('', 0)
+#2 {main}
+  thrown in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 187
+[06-Sep-2022 15:14:59 Europe/Berlin] 76
+[06-Sep-2022 15:14:59 Europe/Berlin] 78
+[06-Sep-2022 15:14:59 Europe/Berlin] 89
+[06-Sep-2022 15:14:59 Europe/Berlin] 92
+[06-Sep-2022 15:14:59 Europe/Berlin] 95 name img.png
+[06-Sep-2022 15:14:59 Europe/Berlin] 161
+[06-Sep-2022 15:14:59 Europe/Berlin] 168
+[06-Sep-2022 15:14:59 Europe/Berlin] 179
+[06-Sep-2022 15:14:59 Europe/Berlin] 181
+[06-Sep-2022 15:14:59 Europe/Berlin] PHP Warning:  Undefined variable $nombrefile in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 182
+[06-Sep-2022 15:14:59 Europe/Berlin] 185
+[06-Sep-2022 15:14:59 Europe/Berlin] PHP Warning:  Undefined variable $controlriesgo in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 186
+[06-Sep-2022 15:14:59 Europe/Berlin] PHP Warning:  Undefined variable $conexion in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 187
+[06-Sep-2022 15:14:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php:187
+Stack trace:
+#0 C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php(187): mysqli_query(NULL, 'UPDATE `adjunto...')
+#1 C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php(101): guardar('img.png', 0)
+#2 {main}
+  thrown in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 187
+[06-Sep-2022 15:24:56 Europe/Berlin] 76
+[06-Sep-2022 15:24:56 Europe/Berlin] 78
+[06-Sep-2022 15:24:56 Europe/Berlin] 89
+[06-Sep-2022 15:24:56 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 91
+[06-Sep-2022 15:24:56 Europe/Berlin] 91 $bdfile Array
+[06-Sep-2022 15:24:56 Europe/Berlin] 93 name img.png
+[06-Sep-2022 15:24:56 Europe/Berlin] 96 name img.png
+[06-Sep-2022 15:24:56 Europe/Berlin] 162
+[06-Sep-2022 15:24:56 Europe/Berlin] 169
+[06-Sep-2022 15:24:56 Europe/Berlin] 180
+[06-Sep-2022 15:24:56 Europe/Berlin] 182
+[06-Sep-2022 15:24:56 Europe/Berlin] PHP Warning:  Undefined variable $nombrefile in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 183
+[06-Sep-2022 15:24:56 Europe/Berlin] 186
+[06-Sep-2022 15:24:56 Europe/Berlin] PHP Warning:  Undefined variable $controlriesgo in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 187
+[06-Sep-2022 15:24:56 Europe/Berlin] PHP Warning:  Undefined variable $conexion in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 188
+[06-Sep-2022 15:24:56 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php:188
+Stack trace:
+#0 C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php(188): mysqli_query(NULL, 'UPDATE `adjunto...')
+#1 C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php(102): guardar('img.png', 0)
+#2 {main}
+  thrown in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 188
+[06-Sep-2022 15:29:45 Europe/Berlin] 76
+[06-Sep-2022 15:29:45 Europe/Berlin] 78
+[06-Sep-2022 15:29:45 Europe/Berlin] 89
+[06-Sep-2022 15:29:45 Europe/Berlin] 91 $bdfile 
+[06-Sep-2022 15:29:45 Europe/Berlin] 93 name img.png
+[06-Sep-2022 15:29:45 Europe/Berlin] 96 name img.png
+[06-Sep-2022 15:29:45 Europe/Berlin] 162
+[06-Sep-2022 15:29:45 Europe/Berlin] 169
+[06-Sep-2022 15:29:45 Europe/Berlin] 180
+[06-Sep-2022 15:29:45 Europe/Berlin] 182
+[06-Sep-2022 15:29:45 Europe/Berlin] PHP Warning:  Undefined variable $nombrefile in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 183
+[06-Sep-2022 15:29:45 Europe/Berlin] 186
+[06-Sep-2022 15:29:45 Europe/Berlin] PHP Warning:  Undefined variable $controlriesgo in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 187
+[06-Sep-2022 15:29:45 Europe/Berlin] PHP Warning:  Undefined variable $conexion in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 188
+[06-Sep-2022 15:29:45 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php:188
+Stack trace:
+#0 C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php(188): mysqli_query(NULL, 'UPDATE `adjunto...')
+#1 C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php(102): guardar('img.png', 0)
+#2 {main}
+  thrown in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 188
+[06-Sep-2022 15:30:30 Europe/Berlin] 76
+[06-Sep-2022 15:30:30 Europe/Berlin] 78
+[06-Sep-2022 15:30:30 Europe/Berlin] 89img.png
+[06-Sep-2022 15:30:30 Europe/Berlin] 91 $bdfile 
+[06-Sep-2022 15:30:30 Europe/Berlin] 93 name img.png
+[06-Sep-2022 15:30:30 Europe/Berlin] 96 name img.png
+[06-Sep-2022 15:30:30 Europe/Berlin] 162
+[06-Sep-2022 15:30:30 Europe/Berlin] 169
+[06-Sep-2022 15:30:30 Europe/Berlin] 180
+[06-Sep-2022 15:30:30 Europe/Berlin] 182
+[06-Sep-2022 15:30:30 Europe/Berlin] PHP Warning:  Undefined variable $nombrefile in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 183
+[06-Sep-2022 15:30:30 Europe/Berlin] 186
+[06-Sep-2022 15:30:30 Europe/Berlin] PHP Warning:  Undefined variable $controlriesgo in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 187
+[06-Sep-2022 15:30:30 Europe/Berlin] PHP Warning:  Undefined variable $conexion in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 188
+[06-Sep-2022 15:30:30 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php:188
+Stack trace:
+#0 C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php(188): mysqli_query(NULL, 'UPDATE `adjunto...')
+#1 C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php(102): guardar('img.png', 0)
+#2 {main}
+  thrown in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 188
+[06-Sep-2022 15:37:42 Europe/Berlin] 76
+[06-Sep-2022 15:37:42 Europe/Berlin] 78
+[06-Sep-2022 15:37:42 Europe/Berlin] 165
+[06-Sep-2022 15:37:42 Europe/Berlin] 172
+[06-Sep-2022 15:37:42 Europe/Berlin] 183
+[06-Sep-2022 15:37:42 Europe/Berlin] 185
+[06-Sep-2022 15:37:42 Europe/Berlin] PHP Warning:  Undefined variable $nombrefile in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 186
+[06-Sep-2022 15:37:42 Europe/Berlin] 189
+[06-Sep-2022 15:37:42 Europe/Berlin] PHP Warning:  Undefined variable $controlriesgo in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 190
+[06-Sep-2022 15:37:42 Europe/Berlin] PHP Warning:  Undefined variable $conexion in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 191
+[06-Sep-2022 15:37:42 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php:191
+Stack trace:
+#0 C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php(191): mysqli_query(NULL, 'UPDATE `adjunto...')
+#1 C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php(105): guardar('img.png', 0)
+#2 {main}
+  thrown in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 191
+[06-Sep-2022 15:38:52 Europe/Berlin] 76
+[06-Sep-2022 15:38:52 Europe/Berlin] 78
+[06-Sep-2022 15:38:52 Europe/Berlin] 165
+[06-Sep-2022 15:38:52 Europe/Berlin] 172
+[06-Sep-2022 15:38:52 Europe/Berlin] 183
+[06-Sep-2022 15:38:52 Europe/Berlin] 185
+[06-Sep-2022 15:38:52 Europe/Berlin] 189
+[06-Sep-2022 15:38:52 Europe/Berlin] PHP Warning:  Undefined variable $controlriesgo in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 190
+[06-Sep-2022 15:38:52 Europe/Berlin] PHP Warning:  Undefined variable $conexion in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 191
+[06-Sep-2022 15:38:52 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php:191
+Stack trace:
+#0 C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php(191): mysqli_query(NULL, 'UPDATE `adjunto...')
+#1 C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php(105): guardar('img.png', 0)
+#2 {main}
+  thrown in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 191
+[06-Sep-2022 15:39:44 Europe/Berlin] 76
+[06-Sep-2022 15:39:44 Europe/Berlin] 78
+[06-Sep-2022 15:39:44 Europe/Berlin] 165
+[06-Sep-2022 15:39:44 Europe/Berlin] 172
+[06-Sep-2022 15:39:44 Europe/Berlin] 183
+[06-Sep-2022 15:39:44 Europe/Berlin] 185
+[06-Sep-2022 15:40:17 Europe/Berlin] 76
+[06-Sep-2022 15:40:17 Europe/Berlin] 78
+[06-Sep-2022 15:40:17 Europe/Berlin] 165
+[06-Sep-2022 15:40:17 Europe/Berlin] 172
+[06-Sep-2022 15:40:17 Europe/Berlin] 183
+[06-Sep-2022 15:40:17 Europe/Berlin] 185
+[06-Sep-2022 15:43:39 Europe/Berlin] 76
+[06-Sep-2022 15:43:39 Europe/Berlin] 78
+[06-Sep-2022 15:43:39 Europe/Berlin] 165
+[06-Sep-2022 15:43:39 Europe/Berlin] 172
+[06-Sep-2022 15:43:39 Europe/Berlin] 183
+[06-Sep-2022 15:43:39 Europe/Berlin] 185
+[06-Sep-2022 15:43:39 Europe/Berlin] 189
+[06-Sep-2022 15:43:39 Europe/Berlin] PHP Warning:  Undefined variable $conexion in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 191
+[06-Sep-2022 15:43:39 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php:191
+Stack trace:
+#0 C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php(191): mysqli_query(NULL, 'UPDATE `adjunto...')
+#1 C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php(105): guardar('img.png', '0000000066', 0)
+#2 {main}
+  thrown in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 191
+[06-Sep-2022 15:46:10 Europe/Berlin] 76
+[06-Sep-2022 15:46:10 Europe/Berlin] 78
+[06-Sep-2022 15:46:10 Europe/Berlin] 165
+[06-Sep-2022 15:46:10 Europe/Berlin] 172
+[06-Sep-2022 15:46:10 Europe/Berlin] 183
+[06-Sep-2022 15:46:10 Europe/Berlin] 185
+[06-Sep-2022 15:46:10 Europe/Berlin] 189
+[06-Sep-2022 16:06:12 Europe/Berlin] 76
+[06-Sep-2022 16:06:12 Europe/Berlin] 78
+[06-Sep-2022 16:06:12 Europe/Berlin] 91 $bdfile 
+[06-Sep-2022 16:06:12 Europe/Berlin] 93 name DIPCP.png
+[06-Sep-2022 16:06:12 Europe/Berlin] PHP Warning:  unlink(C:\xampp\htdocs\Project\sicongimg\adjuntos\riesgo\DIPCP.png): No such file or directory in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 162
+[06-Sep-2022 16:06:12 Europe/Berlin] 93 name img.png
+[06-Sep-2022 16:06:12 Europe/Berlin] PHP Warning:  unlink(C:\xampp\htdocs\Project\sicongimg\adjuntos\riesgo\img.png): No such file or directory in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 162
+[06-Sep-2022 16:06:12 Europe/Berlin] 171
+[06-Sep-2022 16:06:12 Europe/Berlin] 178
+[06-Sep-2022 16:06:12 Europe/Berlin] 190
+[06-Sep-2022 16:06:12 Europe/Berlin] 192
+[06-Sep-2022 16:07:58 Europe/Berlin] 76
+[06-Sep-2022 16:07:58 Europe/Berlin] 78
+[06-Sep-2022 16:07:58 Europe/Berlin] 171
+[06-Sep-2022 16:07:58 Europe/Berlin] 178
+[06-Sep-2022 16:07:58 Europe/Berlin] 200
+[06-Sep-2022 16:07:58 Europe/Berlin] 202
+[06-Sep-2022 16:07:58 Europe/Berlin] 212
+[06-Sep-2022 16:07:58 Europe/Berlin] 214
+[06-Sep-2022 16:07:58 Europe/Berlin] 178
+[06-Sep-2022 16:07:58 Europe/Berlin] 200
+[06-Sep-2022 16:07:58 Europe/Berlin] 202
+[06-Sep-2022 16:07:58 Europe/Berlin] 204
+[06-Sep-2022 16:24:29 Europe/Berlin] 76
+[06-Sep-2022 16:24:29 Europe/Berlin] 78
+[06-Sep-2022 16:24:29 Europe/Berlin] 171
+[06-Sep-2022 16:24:29 Europe/Berlin] 178
+[06-Sep-2022 16:24:29 Europe/Berlin] 200
+[06-Sep-2022 16:24:29 Europe/Berlin] 202
+[06-Sep-2022 16:24:29 Europe/Berlin] 213
+[06-Sep-2022 16:24:29 Europe/Berlin] 215
+[06-Sep-2022 16:24:29 Europe/Berlin] 178
+[06-Sep-2022 16:24:29 Europe/Berlin] 200
+[06-Sep-2022 16:24:29 Europe/Berlin] 202
+[06-Sep-2022 16:24:29 Europe/Berlin] 204 $nombreFile img.png
+[06-Sep-2022 16:24:29 Europe/Berlin] 206 $nombrearchivos ,img.png
+[06-Sep-2022 16:29:24 Europe/Berlin] 76
+[06-Sep-2022 16:29:24 Europe/Berlin] 78
+[06-Sep-2022 16:29:24 Europe/Berlin] 171
+[06-Sep-2022 16:29:24 Europe/Berlin] 182 $nombreFile DIPCP.png
+[06-Sep-2022 16:29:24 Europe/Berlin] 200
+[06-Sep-2022 16:29:24 Europe/Berlin] 202
+[06-Sep-2022 16:29:24 Europe/Berlin] 213
+[06-Sep-2022 16:29:24 Europe/Berlin] 215
+[06-Sep-2022 16:29:24 Europe/Berlin] 182 $nombreFile Francky.txt
+[06-Sep-2022 16:29:24 Europe/Berlin] 200
+[06-Sep-2022 16:29:24 Europe/Berlin] 202
+[06-Sep-2022 16:29:24 Europe/Berlin] 204 $nombreFile Francky.txt $nombrearchivos DIPCP.png
+[06-Sep-2022 16:29:24 Europe/Berlin] 206 $nombrearchivos DIPCP.png,Francky.txt
+[06-Sep-2022 16:53:51 Europe/Berlin] PHP Warning:  Undefined array key "newfiles" in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_evento.php on line 9
+[06-Sep-2022 16:53:51 Europe/Berlin] PHP Warning:  Undefined array key "oldfiles" in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_evento.php on line 9
+[06-Sep-2022 16:53:51 Europe/Berlin] 9$_POST[oldfiles] $_POST[oldfiles] 
+[06-Sep-2022 16:54:54 Europe/Berlin] PHP Warning:  Undefined array key "newfiles" in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_evento.php on line 9
+[06-Sep-2022 16:54:54 Europe/Berlin] PHP Warning:  Undefined array key "oldfiles" in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_evento.php on line 9
+[06-Sep-2022 16:54:54 Europe/Berlin] 9$_POST[oldfiles] $_POST[oldfiles] 
+[06-Sep-2022 16:59:19 Europe/Berlin] 12
+[06-Sep-2022 16:59:19 Europe/Berlin] 14
+[06-Sep-2022 16:59:19 Europe/Berlin] 235
+[06-Sep-2022 16:59:19 Europe/Berlin] 241
+[06-Sep-2022 16:59:19 Europe/Berlin] PHP Warning:  Undefined variable $oldfile in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 247
+[06-Sep-2022 16:59:19 Europe/Berlin] 250
+[06-Sep-2022 16:59:19 Europe/Berlin] 253
+[06-Sep-2022 16:59:19 Europe/Berlin] PHP Warning:  unlink(\img\adjuntos\diario\DIPCP.png): No such file or directory in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 254
+[06-Sep-2022 16:59:19 Europe/Berlin] PHP Warning:  Undefined variable $oldfile in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 247
+[06-Sep-2022 16:59:19 Europe/Berlin] 250
+[06-Sep-2022 16:59:19 Europe/Berlin] 253
+[06-Sep-2022 16:59:19 Europe/Berlin] PHP Warning:  unlink(\img\adjuntos\diario\Francky.txt): No such file or directory in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 254
+[06-Sep-2022 16:59:19 Europe/Berlin] 17
+[06-Sep-2022 16:59:19 Europe/Berlin] 33
+[06-Sep-2022 16:59:19 Europe/Berlin] 37
+[06-Sep-2022 16:59:19 Europe/Berlin] 39
+[06-Sep-2022 17:22:14 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 9
+[06-Sep-2022 17:22:14 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 9
+[06-Sep-2022 17:22:14 Europe/Berlin] 9 $_FILES["newfiles"] Array $_POST[oldfiles] Array
+[06-Sep-2022 17:22:14 Europe/Berlin] 13
+[06-Sep-2022 17:22:14 Europe/Berlin] 15
+[06-Sep-2022 17:22:14 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 238
+[06-Sep-2022 17:22:14 Europe/Berlin] 238 $oldFiles Array
+[06-Sep-2022 17:22:14 Europe/Berlin] 244
+[06-Sep-2022 17:22:14 Europe/Berlin] 18
+[06-Sep-2022 17:22:14 Europe/Berlin] 34
+[06-Sep-2022 17:22:14 Europe/Berlin] 38
+[06-Sep-2022 17:22:14 Europe/Berlin] 40
+[06-Sep-2022 17:27:06 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 9
+[06-Sep-2022 17:27:06 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 9
+[06-Sep-2022 17:27:06 Europe/Berlin] 9 $_FILES["newfiles"] Array $_POST[oldfiles] Array
+[06-Sep-2022 17:27:06 Europe/Berlin] 13
+[06-Sep-2022 17:27:06 Europe/Berlin] 15
+[06-Sep-2022 17:27:06 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 238
+[06-Sep-2022 17:27:06 Europe/Berlin] 238 $oldFiles Array
+[06-Sep-2022 17:27:06 Europe/Berlin] 244
+[06-Sep-2022 17:27:06 Europe/Berlin] 18
+[06-Sep-2022 17:27:06 Europe/Berlin] 34
+[06-Sep-2022 17:27:06 Europe/Berlin] 50
+[06-Sep-2022 17:27:06 Europe/Berlin] 52
+[06-Sep-2022 17:27:06 Europe/Berlin] 62
+[06-Sep-2022 17:27:06 Europe/Berlin] 65
+[06-Sep-2022 17:27:06 Europe/Berlin] 34
+[06-Sep-2022 17:27:06 Europe/Berlin] 50
+[06-Sep-2022 17:27:06 Europe/Berlin] 52
+[06-Sep-2022 17:27:06 Europe/Berlin] 54
+[06-Sep-2022 17:40:05 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 10
+[06-Sep-2022 17:40:05 Europe/Berlin] 10 oldfiles Array
+[06-Sep-2022 17:40:05 Europe/Berlin] 15
+[06-Sep-2022 17:40:05 Europe/Berlin] 17
+[06-Sep-2022 17:40:05 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 240
+[06-Sep-2022 17:40:05 Europe/Berlin] 240 $oldFiles Array
+[06-Sep-2022 17:40:05 Europe/Berlin] 246
+[06-Sep-2022 17:40:05 Europe/Berlin] 256
+[06-Sep-2022 17:40:05 Europe/Berlin] 259
+[06-Sep-2022 17:40:05 Europe/Berlin] PHP Warning:  unlink(C:\xampp\htdocs\Project\sicong\img\adjuntos\diario\img.png): No such file or directory in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 260
+[06-Sep-2022 17:40:05 Europe/Berlin] 256
+[06-Sep-2022 17:40:05 Europe/Berlin] 259
+[06-Sep-2022 17:40:05 Europe/Berlin] 20
+[06-Sep-2022 17:40:05 Europe/Berlin] 36
+[06-Sep-2022 17:40:05 Europe/Berlin] 40
+[06-Sep-2022 17:40:05 Europe/Berlin] 42
+[06-Sep-2022 17:41:36 Europe/Berlin] 10 oldfiles 
+[06-Sep-2022 17:41:36 Europe/Berlin] 15
+[06-Sep-2022 17:41:36 Europe/Berlin] 17
+[06-Sep-2022 17:41:36 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 240
+[06-Sep-2022 17:41:36 Europe/Berlin] 240 $oldFiles Array
+[06-Sep-2022 17:41:36 Europe/Berlin] 246
+[06-Sep-2022 17:41:36 Europe/Berlin] 256
+[06-Sep-2022 17:41:36 Europe/Berlin] 259
+[06-Sep-2022 17:41:36 Europe/Berlin] PHP Warning:  unlink(C:\xampp\htdocs\Project\sicong\img\adjuntos\diario\img.png): No such file or directory in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 260
+[06-Sep-2022 17:41:36 Europe/Berlin] 256
+[06-Sep-2022 17:41:36 Europe/Berlin] 259
+[06-Sep-2022 17:41:36 Europe/Berlin] PHP Warning:  unlink(C:\xampp\htdocs\Project\sicong\img\adjuntos\diario\logo.png): No such file or directory in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 260
+[06-Sep-2022 17:41:36 Europe/Berlin] 20
+[06-Sep-2022 17:41:36 Europe/Berlin] 36
+[06-Sep-2022 17:41:36 Europe/Berlin] 40
+[06-Sep-2022 17:41:36 Europe/Berlin] 42
+[06-Sep-2022 17:44:13 Europe/Berlin] 10 oldfiles 
+[06-Sep-2022 17:44:13 Europe/Berlin] 15
+[06-Sep-2022 17:44:13 Europe/Berlin] 17
+[06-Sep-2022 17:44:13 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 240
+[06-Sep-2022 17:44:13 Europe/Berlin] 240 $oldFiles Array
+[06-Sep-2022 17:44:13 Europe/Berlin] 246
+[06-Sep-2022 17:44:13 Europe/Berlin] 256
+[06-Sep-2022 17:44:13 Europe/Berlin] 259
+[06-Sep-2022 17:44:13 Europe/Berlin] PHP Warning:  unlink(C:\xampp\htdocs\Project\sicong\img\adjuntos\diario\img.png): No such file or directory in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 260
+[06-Sep-2022 17:44:13 Europe/Berlin] 256
+[06-Sep-2022 17:44:13 Europe/Berlin] 259
+[06-Sep-2022 17:44:13 Europe/Berlin] PHP Warning:  unlink(C:\xampp\htdocs\Project\sicong\img\adjuntos\diario\logo.png): No such file or directory in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 260
+[06-Sep-2022 17:44:13 Europe/Berlin] 20
+[06-Sep-2022 17:44:13 Europe/Berlin] 36
+[06-Sep-2022 17:44:13 Europe/Berlin] 40
+[06-Sep-2022 17:44:13 Europe/Berlin] 42
+[06-Sep-2022 17:45:43 Europe/Berlin] 10 oldfiles 1
+[06-Sep-2022 17:45:43 Europe/Berlin] 15
+[06-Sep-2022 17:45:43 Europe/Berlin] 17
+[06-Sep-2022 17:45:43 Europe/Berlin] 240 $oldFiles 1
+[06-Sep-2022 17:45:43 Europe/Berlin] 246
+[06-Sep-2022 17:45:43 Europe/Berlin] 256
+[06-Sep-2022 17:45:43 Europe/Berlin] 259
+[06-Sep-2022 17:45:43 Europe/Berlin] PHP Warning:  unlink(C:\xampp\htdocs\Project\sicong\img\adjuntos\diario\img.png): No such file or directory in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 260
+[06-Sep-2022 17:45:43 Europe/Berlin] 256
+[06-Sep-2022 17:45:43 Europe/Berlin] 259
+[06-Sep-2022 17:45:43 Europe/Berlin] PHP Warning:  unlink(C:\xampp\htdocs\Project\sicong\img\adjuntos\diario\logo.png): No such file or directory in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 260
+[06-Sep-2022 17:45:43 Europe/Berlin] 20
+[06-Sep-2022 17:45:43 Europe/Berlin] 36
+[06-Sep-2022 17:45:43 Europe/Berlin] 40
+[06-Sep-2022 17:45:43 Europe/Berlin] 42
+[06-Sep-2022 17:48:03 Europe/Berlin] 10 oldfiles 
+[06-Sep-2022 17:48:03 Europe/Berlin] 15
+[06-Sep-2022 17:48:03 Europe/Berlin] 17
+[06-Sep-2022 17:48:03 Europe/Berlin] 240 $oldFiles 1
+[06-Sep-2022 17:48:03 Europe/Berlin] 246
+[06-Sep-2022 17:48:03 Europe/Berlin] 256
+[06-Sep-2022 17:48:03 Europe/Berlin] 259
+[06-Sep-2022 17:48:03 Europe/Berlin] PHP Warning:  unlink(C:\xampp\htdocs\Project\sicong\img\adjuntos\diario\img.png): No such file or directory in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 260
+[06-Sep-2022 17:48:03 Europe/Berlin] 256
+[06-Sep-2022 17:48:03 Europe/Berlin] 259
+[06-Sep-2022 17:48:03 Europe/Berlin] PHP Warning:  unlink(C:\xampp\htdocs\Project\sicong\img\adjuntos\diario\logo.png): No such file or directory in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 260
+[06-Sep-2022 17:48:03 Europe/Berlin] 20
+[06-Sep-2022 17:48:03 Europe/Berlin] 36
+[06-Sep-2022 17:48:03 Europe/Berlin] 40
+[06-Sep-2022 17:48:03 Europe/Berlin] 42
+[06-Sep-2022 17:49:18 Europe/Berlin] 10 oldfiles 
+[06-Sep-2022 17:49:18 Europe/Berlin] 15
+[06-Sep-2022 17:49:18 Europe/Berlin] 17
+[06-Sep-2022 17:49:18 Europe/Berlin] 240 $oldFiles 1
+[06-Sep-2022 17:49:18 Europe/Berlin] 246
+[06-Sep-2022 17:49:18 Europe/Berlin] 256
+[06-Sep-2022 17:49:18 Europe/Berlin] 259
+[06-Sep-2022 17:49:18 Europe/Berlin] PHP Warning:  unlink(C:\xampp\htdocs\Project\sicong\img\adjuntos\diario\img.png): No such file or directory in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 260
+[06-Sep-2022 17:49:18 Europe/Berlin] 256
+[06-Sep-2022 17:49:18 Europe/Berlin] 259
+[06-Sep-2022 17:49:18 Europe/Berlin] PHP Warning:  unlink(C:\xampp\htdocs\Project\sicong\img\adjuntos\diario\logo.png): No such file or directory in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 260
+[06-Sep-2022 17:49:18 Europe/Berlin] 20
+[06-Sep-2022 17:49:18 Europe/Berlin] 36
+[06-Sep-2022 17:49:18 Europe/Berlin] 40
+[06-Sep-2022 17:49:18 Europe/Berlin] 42
+[06-Sep-2022 17:49:41 Europe/Berlin] 10 oldfiles 
+[06-Sep-2022 17:49:41 Europe/Berlin] 15
+[06-Sep-2022 17:49:41 Europe/Berlin] 17
+[06-Sep-2022 17:49:41 Europe/Berlin] 240 $oldFiles 1
+[06-Sep-2022 17:49:41 Europe/Berlin] 246
+[06-Sep-2022 17:49:41 Europe/Berlin] 256
+[06-Sep-2022 17:49:41 Europe/Berlin] 259
+[06-Sep-2022 17:49:41 Europe/Berlin] PHP Warning:  unlink(C:\xampp\htdocs\Project\sicong\img\adjuntos\diario\Francky.txt): No such file or directory in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 260
+[06-Sep-2022 17:49:41 Europe/Berlin] 256
+[06-Sep-2022 17:49:41 Europe/Berlin] 259
+[06-Sep-2022 17:49:41 Europe/Berlin] PHP Warning:  unlink(C:\xampp\htdocs\Project\sicong\img\adjuntos\diario\): Is a directory in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 260
+[06-Sep-2022 17:49:41 Europe/Berlin] 20
+[06-Sep-2022 17:49:41 Europe/Berlin] 36
+[06-Sep-2022 17:49:41 Europe/Berlin] 40
+[06-Sep-2022 17:49:41 Europe/Berlin] 42
+[06-Sep-2022 17:50:47 Europe/Berlin] 10 oldfiles 
+[06-Sep-2022 17:50:47 Europe/Berlin] 15
+[06-Sep-2022 17:50:47 Europe/Berlin] 17
+[06-Sep-2022 17:50:47 Europe/Berlin] 240 $oldFiles 1
+[06-Sep-2022 17:50:47 Europe/Berlin] 246
+[06-Sep-2022 17:50:47 Europe/Berlin] 256
+[06-Sep-2022 17:50:47 Europe/Berlin] 259
+[06-Sep-2022 17:50:47 Europe/Berlin] PHP Warning:  unlink(C:\xampp\htdocs\Project\sicong\img\adjuntos\diario\img.png): No such file or directory in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 260
+[06-Sep-2022 17:50:47 Europe/Berlin] 256
+[06-Sep-2022 17:50:47 Europe/Berlin] 259
+[06-Sep-2022 17:50:47 Europe/Berlin] PHP Warning:  unlink(C:\xampp\htdocs\Project\sicong\img\adjuntos\diario\logo.png): No such file or directory in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 260
+[06-Sep-2022 17:50:47 Europe/Berlin] 20
+[06-Sep-2022 17:50:47 Europe/Berlin] 36
+[06-Sep-2022 17:50:47 Europe/Berlin] 40
+[06-Sep-2022 17:50:47 Europe/Berlin] 42
+[06-Sep-2022 17:54:24 Europe/Berlin] 10 oldfiles 
+[06-Sep-2022 17:54:24 Europe/Berlin] 15
+[06-Sep-2022 17:54:24 Europe/Berlin] 17
+[06-Sep-2022 17:54:24 Europe/Berlin] 240 $oldFiles 1
+[06-Sep-2022 17:54:24 Europe/Berlin] 246
+[06-Sep-2022 17:54:24 Europe/Berlin] 256
+[06-Sep-2022 17:54:24 Europe/Berlin] 259
+[06-Sep-2022 17:54:24 Europe/Berlin] PHP Warning:  unlink(C:\xampp\htdocs\Project\sicong\img\adjuntos\diario\img.png): No such file or directory in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 260
+[06-Sep-2022 17:54:24 Europe/Berlin] 256
+[06-Sep-2022 17:54:24 Europe/Berlin] 259
+[06-Sep-2022 17:54:24 Europe/Berlin] PHP Warning:  unlink(C:\xampp\htdocs\Project\sicong\img\adjuntos\diario\logo.png): No such file or directory in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 260
+[06-Sep-2022 17:54:24 Europe/Berlin] 20
+[06-Sep-2022 17:54:24 Europe/Berlin] 36
+[06-Sep-2022 17:54:24 Europe/Berlin] 40
+[06-Sep-2022 17:54:24 Europe/Berlin] 42
+[06-Sep-2022 17:54:50 Europe/Berlin] 10 oldfiles 
+[06-Sep-2022 17:54:50 Europe/Berlin] 15
+[06-Sep-2022 17:54:50 Europe/Berlin] 17
+[06-Sep-2022 17:54:50 Europe/Berlin] 240 $oldFiles 1
+[06-Sep-2022 17:54:50 Europe/Berlin] 246
+[06-Sep-2022 17:54:50 Europe/Berlin] 256
+[06-Sep-2022 17:54:50 Europe/Berlin] 259
+[06-Sep-2022 17:54:50 Europe/Berlin] PHP Warning:  unlink(C:\xampp\htdocs\Project\sicong\img\adjuntos\diario\DIPCP.png): No such file or directory in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 260
+[06-Sep-2022 17:54:50 Europe/Berlin] 256
+[06-Sep-2022 17:54:50 Europe/Berlin] 259
+[06-Sep-2022 17:54:50 Europe/Berlin] PHP Warning:  unlink(C:\xampp\htdocs\Project\sicong\img\adjuntos\diario\): Is a directory in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 260
+[06-Sep-2022 17:54:50 Europe/Berlin] 20
+[06-Sep-2022 17:54:50 Europe/Berlin] 36
+[06-Sep-2022 17:54:50 Europe/Berlin] 40
+[06-Sep-2022 17:54:50 Europe/Berlin] 42
+[06-Sep-2022 17:57:57 Europe/Berlin] 10 oldfiles logo.png,img.png
+[06-Sep-2022 17:57:57 Europe/Berlin] 15
+[06-Sep-2022 17:57:57 Europe/Berlin] 17
+[06-Sep-2022 17:57:57 Europe/Berlin] 240 $oldFiles 1
+[06-Sep-2022 17:57:57 Europe/Berlin] 246
+[06-Sep-2022 17:57:57 Europe/Berlin] 256
+[06-Sep-2022 17:57:57 Europe/Berlin] 259
+[06-Sep-2022 17:57:57 Europe/Berlin] PHP Warning:  unlink(C:\xampp\htdocs\Project\sicong\img\adjuntos\diario\img.png): No such file or directory in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 260
+[06-Sep-2022 17:57:57 Europe/Berlin] 256
+[06-Sep-2022 17:57:57 Europe/Berlin] 259
+[06-Sep-2022 17:57:57 Europe/Berlin] PHP Warning:  unlink(C:\xampp\htdocs\Project\sicong\img\adjuntos\diario\logo.png): No such file or directory in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 260
+[06-Sep-2022 17:57:57 Europe/Berlin] 20
+[06-Sep-2022 17:57:57 Europe/Berlin] 36
+[06-Sep-2022 17:57:57 Europe/Berlin] 40
+[06-Sep-2022 17:57:57 Europe/Berlin] 42
+[06-Sep-2022 18:15:15 Europe/Berlin] 14
+[06-Sep-2022 18:15:15 Europe/Berlin] 16
+[06-Sep-2022 18:15:15 Europe/Berlin] 239 $oldFiles 1
+[06-Sep-2022 18:15:15 Europe/Berlin] 246
+[06-Sep-2022 18:15:15 Europe/Berlin] PHP Warning:  Undefined variable $oldfiles in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 259
+[06-Sep-2022 18:15:15 Europe/Berlin] 262
+[06-Sep-2022 18:15:15 Europe/Berlin] PHP Warning:  Undefined variable $oldfiles in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 259
+[06-Sep-2022 18:15:15 Europe/Berlin] 262
+[06-Sep-2022 18:15:15 Europe/Berlin] 265
+[06-Sep-2022 18:15:15 Europe/Berlin] PHP Warning:  unlink(C:\xampp\htdocs\Project\sicong\img\adjuntos\diario\img.png): No such file or directory in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 266
+[06-Sep-2022 18:15:15 Europe/Berlin] PHP Warning:  Undefined variable $oldfiles in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 259
+[06-Sep-2022 18:15:15 Europe/Berlin] 262
+[06-Sep-2022 18:15:15 Europe/Berlin] PHP Warning:  Undefined variable $oldfiles in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 259
+[06-Sep-2022 18:15:15 Europe/Berlin] 262
+[06-Sep-2022 18:15:15 Europe/Berlin] 265
+[06-Sep-2022 18:15:15 Europe/Berlin] PHP Warning:  unlink(C:\xampp\htdocs\Project\sicong\img\adjuntos\diario\logo.png): No such file or directory in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 266
+[06-Sep-2022 18:15:15 Europe/Berlin] 19
+[06-Sep-2022 18:15:15 Europe/Berlin] 35
+[06-Sep-2022 18:15:15 Europe/Berlin] 39
+[06-Sep-2022 18:15:15 Europe/Berlin] 41
+[06-Sep-2022 18:17:50 Europe/Berlin] 14
+[06-Sep-2022 18:17:50 Europe/Berlin] 16
+[06-Sep-2022 18:17:50 Europe/Berlin] 239 $oldFiles 1
+[06-Sep-2022 18:17:50 Europe/Berlin] 246
+[06-Sep-2022 18:17:50 Europe/Berlin] 262
+[06-Sep-2022 18:17:50 Europe/Berlin] 262
+[06-Sep-2022 18:17:50 Europe/Berlin] 272
+[06-Sep-2022 18:17:50 Europe/Berlin] 262
+[06-Sep-2022 18:17:50 Europe/Berlin] 262
+[06-Sep-2022 18:17:50 Europe/Berlin] 272
+[06-Sep-2022 18:17:50 Europe/Berlin] 19
+[06-Sep-2022 18:17:50 Europe/Berlin] 35
+[06-Sep-2022 18:17:50 Europe/Berlin] 39
+[06-Sep-2022 18:17:50 Europe/Berlin] 41
+[06-Sep-2022 20:15:03 Europe/Berlin] 14
+[06-Sep-2022 20:15:03 Europe/Berlin] 16
+[06-Sep-2022 20:15:03 Europe/Berlin] 245
+[06-Sep-2022 20:15:03 Europe/Berlin] 261
+[06-Sep-2022 20:15:03 Europe/Berlin] 261
+[06-Sep-2022 20:15:03 Europe/Berlin] 261
+[06-Sep-2022 20:15:03 Europe/Berlin] 271
+[06-Sep-2022 20:15:03 Europe/Berlin] 261
+[06-Sep-2022 20:15:03 Europe/Berlin] 261
+[06-Sep-2022 20:15:03 Europe/Berlin] 261
+[06-Sep-2022 20:15:03 Europe/Berlin] 271
+[06-Sep-2022 20:15:03 Europe/Berlin] 261
+[06-Sep-2022 20:15:03 Europe/Berlin] 261
+[06-Sep-2022 20:15:03 Europe/Berlin] 261
+[06-Sep-2022 20:15:03 Europe/Berlin] 271
+[06-Sep-2022 20:15:03 Europe/Berlin] 19
+[06-Sep-2022 20:15:03 Europe/Berlin] 35
+[06-Sep-2022 20:15:03 Europe/Berlin] 39
+[06-Sep-2022 20:15:03 Europe/Berlin] 41
+[06-Sep-2022 21:04:15 Europe/Berlin] PHP Warning:  Undefined array key "newfiles" in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_evento.php on line 9
+[06-Sep-2022 21:04:15 Europe/Berlin] 9$_POST[oldfiles] $_POST[oldfiles] ,logoseguridad.png
+[06-Sep-2022 21:06:42 Europe/Berlin] PHP Warning:  Undefined array key "newfiles" in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_evento.php on line 9
+[06-Sep-2022 21:06:42 Europe/Berlin] PHP Warning:  Undefined array key "oldfiles" in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_evento.php on line 9
+[06-Sep-2022 21:06:42 Europe/Berlin] 9$_POST[oldfiles] $_POST[oldfiles] 
+[06-Sep-2022 21:12:02 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_evento.php on line 9
+[06-Sep-2022 21:12:02 Europe/Berlin] PHP Warning:  Undefined array key "oldfiles" in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_evento.php on line 9
+[06-Sep-2022 21:12:02 Europe/Berlin] 9$_POST[oldfiles]Array $_POST[oldfiles] 
+[06-Sep-2022 21:12:02 Europe/Berlin] 66 $controlevento 0000000085
+[06-Sep-2022 21:12:02 Europe/Berlin] 82
+[06-Sep-2022 21:12:02 Europe/Berlin] PHP Warning:  unlink(C:\xampp\htdocs\Project\sicong\img\adjuntos\evento\): Is a directory in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_evento.php on line 139
+[06-Sep-2022 21:12:02 Europe/Berlin] 86
+[06-Sep-2022 21:12:02 Europe/Berlin] 148
+[06-Sep-2022 21:12:02 Europe/Berlin] 159 $nombreFile Francky.txt
+[06-Sep-2022 21:12:02 Europe/Berlin] 167
+[06-Sep-2022 21:12:02 Europe/Berlin] 169
+[06-Sep-2022 21:12:27 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_evento.php on line 9
+[06-Sep-2022 21:12:27 Europe/Berlin] 9$_POST[oldfiles]Array $_POST[oldfiles] Francky.txt
+[06-Sep-2022 21:13:21 Europe/Berlin] 9
+[06-Sep-2022 21:13:21 Europe/Berlin] 12
+[06-Sep-2022 21:13:21 Europe/Berlin] 15
+[06-Sep-2022 21:13:21 Europe/Berlin] 235
+[06-Sep-2022 21:13:21 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, string given in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_diario.php on line 247
+[06-Sep-2022 21:13:21 Europe/Berlin] 253
+[06-Sep-2022 21:13:21 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, string given in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_diario.php on line 247
+[06-Sep-2022 21:13:21 Europe/Berlin] 253
+[06-Sep-2022 21:13:21 Europe/Berlin] 18
+[06-Sep-2022 21:13:21 Europe/Berlin] 26
+[06-Sep-2022 21:13:21 Europe/Berlin] 37
+[06-Sep-2022 21:13:21 Europe/Berlin] 39
+[06-Sep-2022 21:15:26 Europe/Berlin] 9
+[06-Sep-2022 21:15:26 Europe/Berlin] 12
+[06-Sep-2022 21:15:26 Europe/Berlin] 15
+[06-Sep-2022 21:15:26 Europe/Berlin] 235
+[06-Sep-2022 21:15:26 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, string given in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_diario.php on line 247
+[06-Sep-2022 21:15:26 Europe/Berlin] 253
+[06-Sep-2022 21:15:26 Europe/Berlin] PHP Warning:  unlink(C:\xampp\htdocs\Project\sicong\img\adjuntos\diario\logo.png): No such file or directory in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_diario.php on line 254
+[06-Sep-2022 21:15:26 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, string given in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_diario.php on line 247
+[06-Sep-2022 21:15:26 Europe/Berlin] 253
+[06-Sep-2022 21:15:26 Europe/Berlin] 18
+[06-Sep-2022 21:15:26 Europe/Berlin] 26
+[06-Sep-2022 21:15:26 Europe/Berlin] 37
+[06-Sep-2022 21:15:26 Europe/Berlin] 39
+[06-Sep-2022 21:20:45 Europe/Berlin] 9
+[06-Sep-2022 21:20:45 Europe/Berlin] 12
+[06-Sep-2022 21:20:45 Europe/Berlin] 15
+[06-Sep-2022 21:20:45 Europe/Berlin] 235
+[06-Sep-2022 21:20:45 Europe/Berlin] 253
+[06-Sep-2022 21:20:45 Europe/Berlin] 260
+[06-Sep-2022 21:20:45 Europe/Berlin] 18
+[06-Sep-2022 21:20:45 Europe/Berlin] 26
+[06-Sep-2022 21:20:45 Europe/Berlin] 48
+[06-Sep-2022 21:20:45 Europe/Berlin] 50
+[06-Sep-2022 21:20:45 Europe/Berlin] 60
+[06-Sep-2022 21:20:45 Europe/Berlin] 26
+[06-Sep-2022 21:20:45 Europe/Berlin] 48
+[06-Sep-2022 21:20:45 Europe/Berlin] 50
+[06-Sep-2022 21:20:45 Europe/Berlin] 52
+[06-Sep-2022 21:23:11 Europe/Berlin] 9
+[06-Sep-2022 21:23:11 Europe/Berlin] 12
+[06-Sep-2022 21:23:11 Europe/Berlin] 15
+[06-Sep-2022 21:23:11 Europe/Berlin] 235
+[06-Sep-2022 21:23:11 Europe/Berlin] 253
+[06-Sep-2022 21:23:11 Europe/Berlin] 260
+[06-Sep-2022 21:23:11 Europe/Berlin] 260
+[06-Sep-2022 21:23:11 Europe/Berlin] 18
+[06-Sep-2022 21:23:11 Europe/Berlin] 26
+[06-Sep-2022 21:23:11 Europe/Berlin] 48
+[06-Sep-2022 21:23:11 Europe/Berlin] 50
+[06-Sep-2022 21:23:11 Europe/Berlin] 60
+[06-Sep-2022 21:23:11 Europe/Berlin] 26
+[06-Sep-2022 21:23:11 Europe/Berlin] 48
+[06-Sep-2022 21:23:11 Europe/Berlin] 50
+[06-Sep-2022 21:23:11 Europe/Berlin] 52
+[06-Sep-2022 21:23:26 Europe/Berlin] 9
+[06-Sep-2022 21:23:26 Europe/Berlin] 12
+[06-Sep-2022 21:23:26 Europe/Berlin] 15
+[06-Sep-2022 21:23:26 Europe/Berlin] 235
+[06-Sep-2022 21:23:26 Europe/Berlin] 253
+[06-Sep-2022 21:23:26 Europe/Berlin] 260
+[06-Sep-2022 21:23:26 Europe/Berlin] 260
+[06-Sep-2022 21:23:26 Europe/Berlin] 18
+[06-Sep-2022 21:23:26 Europe/Berlin] 26
+[06-Sep-2022 21:23:26 Europe/Berlin] 48
+[06-Sep-2022 21:23:26 Europe/Berlin] 50
+[06-Sep-2022 21:23:26 Europe/Berlin] 60
+[06-Sep-2022 21:23:26 Europe/Berlin] 26
+[06-Sep-2022 21:23:26 Europe/Berlin] 48
+[06-Sep-2022 21:23:26 Europe/Berlin] 50
+[06-Sep-2022 21:23:26 Europe/Berlin] 52
+[06-Sep-2022 21:26:00 Europe/Berlin] 9
+[06-Sep-2022 21:26:00 Europe/Berlin] 103
+[06-Sep-2022 21:26:00 Europe/Berlin] 106
+[06-Sep-2022 21:26:00 Europe/Berlin] 121
+[06-Sep-2022 21:26:00 Europe/Berlin] 121
+[06-Sep-2022 21:26:00 Europe/Berlin] 121
+[06-Sep-2022 21:26:00 Europe/Berlin] PHP Warning:  unlink(C:\xampp\htdocs\Project\sicong\img\adjuntos\diario\logo.png): No such file or directory in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_diario.php on line 125
+[06-Sep-2022 21:26:00 Europe/Berlin] 121
+[06-Sep-2022 21:26:00 Europe/Berlin] 141
+[06-Sep-2022 22:03:28 Europe/Berlin] 9 agregandoRIESGO
+[06-Sep-2022 22:03:28 Europe/Berlin] 16 $cantidadRegistros 1
+[06-Sep-2022 22:03:28 Europe/Berlin] 22 $rutaFile img\adjuntos\diario\
+[06-Sep-2022 22:03:28 Europe/Berlin] 28 $trueFalse 
+[06-Sep-2022 22:03:28 Europe/Berlin] 38 $cantidadRegistros===1
+[06-Sep-2022 22:03:28 Europe/Berlin] 40 $error===0
+[06-Sep-2022 22:03:28 Europe/Berlin] 41 $rutaFile \\img\\adjuntos\\diario\\ ID_REPOR 10 $nombreFile img.png
+[06-Sep-2022 22:03:28 Europe/Berlin] 44 INSERT INTO `adjuntos_diarios` VALUES (NULL,10,'\\img\\adjuntos\\diario\\','img.png')
+[06-Sep-2022 22:17:20 Europe/Berlin] 9
+[06-Sep-2022 22:17:20 Europe/Berlin] 12
+[06-Sep-2022 22:17:20 Europe/Berlin] 15
+[06-Sep-2022 22:17:20 Europe/Berlin] 251
+[06-Sep-2022 22:17:20 Europe/Berlin] 18
+[06-Sep-2022 22:17:20 Europe/Berlin] 26
+[06-Sep-2022 22:17:20 Europe/Berlin] 48
+[06-Sep-2022 22:17:20 Europe/Berlin] 50
+[06-Sep-2022 22:17:20 Europe/Berlin] 60
+[06-Sep-2022 22:17:20 Europe/Berlin] 26
+[06-Sep-2022 22:17:20 Europe/Berlin] 48
+[06-Sep-2022 22:17:20 Europe/Berlin] 50
+[06-Sep-2022 22:17:20 Europe/Berlin] 52
+[06-Sep-2022 22:23:09 Europe/Berlin] 9
+[06-Sep-2022 22:23:09 Europe/Berlin] 12
+[06-Sep-2022 22:23:09 Europe/Berlin] 15
+[06-Sep-2022 22:23:09 Europe/Berlin] 251
+[06-Sep-2022 22:23:09 Europe/Berlin] 276
+[06-Sep-2022 22:23:09 Europe/Berlin] 276
+[06-Sep-2022 22:23:09 Europe/Berlin] 276
+[06-Sep-2022 22:23:09 Europe/Berlin] 18
+[06-Sep-2022 22:23:09 Europe/Berlin] 26
+[06-Sep-2022 22:23:09 Europe/Berlin] 37
+[06-Sep-2022 22:23:09 Europe/Berlin] 39
+[06-Sep-2022 22:25:29 Europe/Berlin] 9
+[06-Sep-2022 22:25:29 Europe/Berlin] 12
+[06-Sep-2022 22:25:29 Europe/Berlin] 15
+[06-Sep-2022 22:25:29 Europe/Berlin] 251
+[06-Sep-2022 22:25:29 Europe/Berlin] 276
+[06-Sep-2022 22:25:29 Europe/Berlin] 269
+[06-Sep-2022 22:25:29 Europe/Berlin] 276
+[06-Sep-2022 22:25:29 Europe/Berlin] 276
+[06-Sep-2022 22:25:29 Europe/Berlin] 18
+[06-Sep-2022 22:25:29 Europe/Berlin] 26
+[06-Sep-2022 22:25:29 Europe/Berlin] 37
+[06-Sep-2022 22:25:29 Europe/Berlin] 39
+[06-Sep-2022 22:26:52 Europe/Berlin] 9
+[06-Sep-2022 22:26:52 Europe/Berlin] 12
+[06-Sep-2022 22:26:52 Europe/Berlin] 15
+[06-Sep-2022 22:26:52 Europe/Berlin] 251
+[06-Sep-2022 22:26:52 Europe/Berlin] 276
+[06-Sep-2022 22:26:52 Europe/Berlin] 276
+[06-Sep-2022 22:26:52 Europe/Berlin] 269
+[06-Sep-2022 22:26:52 Europe/Berlin] 269
+[06-Sep-2022 22:26:52 Europe/Berlin] 18
+[06-Sep-2022 22:26:52 Europe/Berlin] 26
+[06-Sep-2022 22:26:52 Europe/Berlin] 37
+[06-Sep-2022 22:26:52 Europe/Berlin] 39
+[06-Sep-2022 22:34:23 Europe/Berlin] 9
+[06-Sep-2022 22:34:23 Europe/Berlin] 102
+[06-Sep-2022 22:34:23 Europe/Berlin] 138
+[06-Sep-2022 22:34:23 Europe/Berlin] 128
+[06-Sep-2022 22:34:23 Europe/Berlin] 138
+[06-Sep-2022 22:34:23 Europe/Berlin] 157
+[06-Sep-2022 22:39:16 Europe/Berlin] 9
+[06-Sep-2022 22:39:16 Europe/Berlin] 76
+[06-Sep-2022 22:39:16 Europe/Berlin] 84
+[06-Sep-2022 22:39:16 Europe/Berlin] 87 $bdfile 
+[06-Sep-2022 22:39:16 Europe/Berlin] 89 name logoseguridad.png
+[06-Sep-2022 22:39:16 Europe/Berlin] 89 name DIPCP.pptx
+[06-Sep-2022 22:39:16 Europe/Berlin] 179
+[06-Sep-2022 22:39:16 Europe/Berlin] 190 $nombreFile Francky.txt
+[06-Sep-2022 22:39:16 Europe/Berlin] 198
+[06-Sep-2022 22:39:16 Europe/Berlin] 200
+[06-Sep-2022 22:39:16 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'sicong_bd.adjuntos_diario' doesn't exist in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_diario.php:202
+Stack trace:
+#0 C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_diario.php(202): mysqli_query(Object(mysqli), 'UPDATE `adjunto...')
+#1 C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_diario.php(96): guardar('0000000010', Object(mysqli), 0)
+#2 {main}
+  thrown in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_diario.php on line 202
+[06-Sep-2022 22:43:13 Europe/Berlin] 9
+[06-Sep-2022 22:43:13 Europe/Berlin] 76
+[06-Sep-2022 22:43:13 Europe/Berlin] 84
+[06-Sep-2022 22:43:13 Europe/Berlin] 87 $bdfile 
+[06-Sep-2022 22:43:13 Europe/Berlin] 89 name logoseguridad.png
+[06-Sep-2022 22:43:13 Europe/Berlin] PHP Warning:  unlink(C:\xampp\htdocs\Project\sicong\img\adjuntos\diario\logoseguridad.png): No such file or directory in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_diario.php on line 170
+[06-Sep-2022 22:43:13 Europe/Berlin] 89 name DIPCP.pptx
+[06-Sep-2022 22:43:13 Europe/Berlin] PHP Warning:  unlink(C:\xampp\htdocs\Project\sicong\img\adjuntos\diario\DIPCP.pptx): No such file or directory in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_diario.php on line 170
+[06-Sep-2022 22:43:13 Europe/Berlin] 179
+[06-Sep-2022 22:43:13 Europe/Berlin] 190 $nombreFile Francky.txt
+[06-Sep-2022 22:43:13 Europe/Berlin] 198
+[06-Sep-2022 22:43:13 Europe/Berlin] 200
+[06-Sep-2022 22:44:39 Europe/Berlin] 9
+[06-Sep-2022 22:44:39 Europe/Berlin] 12
+[06-Sep-2022 22:44:39 Europe/Berlin] 15
+[06-Sep-2022 22:44:39 Europe/Berlin] 251
+[06-Sep-2022 22:44:39 Europe/Berlin] 18
+[06-Sep-2022 22:44:39 Europe/Berlin] 26
+[06-Sep-2022 22:44:39 Europe/Berlin] 37
+[06-Sep-2022 22:44:39 Europe/Berlin] 39
+[06-Sep-2022 22:45:06 Europe/Berlin] 9
+[06-Sep-2022 22:45:06 Europe/Berlin] 102
+[06-Sep-2022 22:45:06 Europe/Berlin] 138
+[06-Sep-2022 22:45:06 Europe/Berlin] 128
+[06-Sep-2022 22:45:06 Europe/Berlin] 157
+[06-Sep-2022 22:47:24 Europe/Berlin] 40 $id_e 1 $id_u 2022-09-06 $id_u 0 $id_u COMO LLEGARON SE FUERON $acciones_tomadas MAYOR PERSONAL DE SEGURIDAD $recomendaciones NO DEJAR LAS COSAS CON FACILIDAD DE HURTO $encargado JUAN JOSE $cargo_encargado COORDINADOR
+[06-Sep-2022 22:47:24 Europe/Berlin] 17
+[06-Sep-2022 22:47:24 Europe/Berlin] 28
+[06-Sep-2022 22:47:24 Europe/Berlin] 80
+[06-Sep-2022 22:47:24 Europe/Berlin] 37
+[06-Sep-2022 22:47:24 Europe/Berlin] 39
+[06-Sep-2022 22:47:24 Europe/Berlin] 41
+[06-Sep-2022 22:48:15 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_evento.php on line 9
+[06-Sep-2022 22:48:15 Europe/Berlin] 9$_POST[oldfiles]Array $_POST[oldfiles] LOGO NUEVO DIPCP.pptx
+[06-Sep-2022 22:49:07 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_evento.php on line 9
+[06-Sep-2022 22:49:07 Europe/Berlin] 9$_POST[oldfiles]Array $_POST[oldfiles] LOGO NUEVO DIPCP.pptx,ScamChoferes.pptx
+[06-Sep-2022 22:50:16 Europe/Berlin] PHP Warning:  Undefined array key "newfiles" in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_evento.php on line 9
+[06-Sep-2022 22:50:16 Europe/Berlin] 9$_POST[oldfiles] $_POST[oldfiles] ScamChoferes.pptx,DEPLOYMENT.txt
+[06-Sep-2022 22:50:16 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, string given in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_evento.php on line 112
+[06-Sep-2022 22:50:16 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, string given in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_evento.php on line 112
+[06-Sep-2022 22:50:16 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, string given in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_evento.php on line 112
+[06-Sep-2022 22:53:02 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_evento.php on line 9
+[06-Sep-2022 22:53:02 Europe/Berlin] PHP Warning:  Undefined array key "oldfiles" in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_evento.php on line 9
+[06-Sep-2022 22:53:02 Europe/Berlin] 9$_POST[oldfiles]Array $_POST[oldfiles] 
+[06-Sep-2022 22:53:02 Europe/Berlin] 66 $controlevento 0000000086
+[06-Sep-2022 22:53:02 Europe/Berlin] 82
+[06-Sep-2022 22:53:02 Europe/Berlin] PHP Warning:  unlink(C:\xampp\htdocs\Project\sicong\img\adjuntos\evento\): Is a directory in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_evento.php on line 157
+[06-Sep-2022 22:53:02 Europe/Berlin] 86
+[06-Sep-2022 22:53:02 Europe/Berlin] 166
+[06-Sep-2022 22:53:02 Europe/Berlin] 177 $nombreFile LOGO NUEVO DIPCP.pptx
+[06-Sep-2022 22:53:02 Europe/Berlin] 195
+[06-Sep-2022 22:53:02 Europe/Berlin] 197
+[06-Sep-2022 22:53:02 Europe/Berlin] 208
+[06-Sep-2022 22:53:02 Europe/Berlin] 210
+[06-Sep-2022 22:53:02 Europe/Berlin] 177 $nombreFile logoseguridad.png
+[06-Sep-2022 22:53:02 Europe/Berlin] 195
+[06-Sep-2022 22:53:02 Europe/Berlin] 197
+[06-Sep-2022 22:53:02 Europe/Berlin] 208
+[06-Sep-2022 22:53:02 Europe/Berlin] 177 $nombreFile ScamChoferes.pptx
+[06-Sep-2022 22:53:02 Europe/Berlin] 195
+[06-Sep-2022 22:53:02 Europe/Berlin] 197
+[06-Sep-2022 22:53:02 Europe/Berlin] 199 $nombreFile ScamChoferes.pptx $nombrearchivos LOGO NUEVO DIPCP.pptx,logoseguridad.png
+[06-Sep-2022 22:53:02 Europe/Berlin] 201 $nombrearchivos LOGO NUEVO DIPCP.pptx,logoseguridad.png,ScamChoferes.pptx
+[06-Sep-2022 22:53:39 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_evento.php on line 9
+[06-Sep-2022 22:53:39 Europe/Berlin] 9$_POST[oldfiles]Array $_POST[oldfiles] logoseguridad.png,LOGO NUEVO DIPCP.pptx
+[06-Sep-2022 22:53:54 Europe/Berlin] PHP Warning:  Undefined array key "newfiles" in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_evento.php on line 9
+[06-Sep-2022 22:53:54 Europe/Berlin] 9$_POST[oldfiles] $_POST[oldfiles] LOGO NUEVO DIPCP.pptx
+[06-Sep-2022 22:59:12 Europe/Berlin] 96
+[06-Sep-2022 22:59:12 Europe/Berlin] 103
+[06-Sep-2022 22:59:12 Europe/Berlin] 106
+[06-Sep-2022 22:59:12 Europe/Berlin] 112
+[06-Sep-2022 22:59:12 Europe/Berlin] 134
+[06-Sep-2022 22:59:12 Europe/Berlin] 134
+[06-Sep-2022 22:59:12 Europe/Berlin] 154
+[06-Sep-2022 23:01:47 Europe/Berlin] 96
+[06-Sep-2022 23:01:47 Europe/Berlin] 103
+[06-Sep-2022 23:01:47 Europe/Berlin] 106
+[06-Sep-2022 23:01:47 Europe/Berlin] 112
+[06-Sep-2022 23:01:47 Europe/Berlin] 134
+[06-Sep-2022 23:01:47 Europe/Berlin] 137
+[06-Sep-2022 23:01:47 Europe/Berlin] 134
+[06-Sep-2022 23:01:47 Europe/Berlin] 140
+[06-Sep-2022 23:01:47 Europe/Berlin] 156 $nombresold LOGO NUEVO DIPCP.pptx,logoseguridad.png $controlevento 0000000086
+[06-Sep-2022 23:02:57 Europe/Berlin] 96
+[06-Sep-2022 23:02:57 Europe/Berlin] 103
+[06-Sep-2022 23:02:57 Europe/Berlin] 106
+[06-Sep-2022 23:02:57 Europe/Berlin] 112
+[06-Sep-2022 23:02:57 Europe/Berlin] 134
+[06-Sep-2022 23:02:57 Europe/Berlin] 137
+[06-Sep-2022 23:02:57 Europe/Berlin] 123
+[06-Sep-2022 23:02:57 Europe/Berlin] 157 $nombresold LOGO NUEVO DIPCP.pptx $controlevento 0000000086
+[06-Sep-2022 23:03:58 Europe/Berlin] 66 $controlevento 0000000086
+[06-Sep-2022 23:03:58 Europe/Berlin] 82
+[06-Sep-2022 23:03:58 Europe/Berlin] 86
+[06-Sep-2022 23:03:58 Europe/Berlin] 179
+[06-Sep-2022 23:03:58 Europe/Berlin] 190 $nombreFile Francky.txt
+[06-Sep-2022 23:03:58 Europe/Berlin] 208
+[06-Sep-2022 23:03:58 Europe/Berlin] 210
+[06-Sep-2022 23:03:58 Europe/Berlin] 221
+[06-Sep-2022 23:03:58 Europe/Berlin] 223
+[06-Sep-2022 23:03:58 Europe/Berlin] 190 $nombreFile img.png
+[06-Sep-2022 23:03:58 Europe/Berlin] 208
+[06-Sep-2022 23:03:58 Europe/Berlin] 210
+[06-Sep-2022 23:03:58 Europe/Berlin] 221
+[06-Sep-2022 23:03:58 Europe/Berlin] 190 $nombreFile LOGO NUEVO DIPCP.pptx
+[06-Sep-2022 23:03:58 Europe/Berlin] 208
+[06-Sep-2022 23:03:58 Europe/Berlin] 210
+[06-Sep-2022 23:03:58 Europe/Berlin] 212 $nombreFile LOGO NUEVO DIPCP.pptx $nombrearchivos Francky.txt,img.png
+[06-Sep-2022 23:03:58 Europe/Berlin] 214 $nombrearchivos Francky.txt,img.png,LOGO NUEVO DIPCP.pptx
+[06-Sep-2022 23:04:17 Europe/Berlin] 66 $controlevento 0000000086
+[06-Sep-2022 23:04:17 Europe/Berlin] 76 $bdfile 
+[06-Sep-2022 23:04:17 Europe/Berlin] 78 name Francky.txt
+[06-Sep-2022 23:04:17 Europe/Berlin] 78 name img.png
+[06-Sep-2022 23:04:17 Europe/Berlin] 78 name LOGO NUEVO DIPCP.pptx
+[06-Sep-2022 23:04:17 Europe/Berlin] 86
+[06-Sep-2022 23:04:17 Europe/Berlin] 179
+[06-Sep-2022 23:04:17 Europe/Berlin] 190 $nombreFile DEPLOYMENT.txt
+[06-Sep-2022 23:04:17 Europe/Berlin] 198
+[06-Sep-2022 23:04:17 Europe/Berlin] 200

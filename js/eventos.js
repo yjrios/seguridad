@@ -2,7 +2,7 @@
 
  			console.log("eventos.js ready!");
  			
-	 		
+	 		 
 	       //Evento click que permite que en el div "contenido" se cargue la vista "Vcomponent.jsp"
             $('a.btnreport').click(function(){
             var id = $(this).attr("id_e");

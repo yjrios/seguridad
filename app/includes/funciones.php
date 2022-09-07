@@ -83,19 +83,21 @@ function conseguirEmpresas2($conexion) {
 		 return $empresas;
 }
 
-function empresa($conexion,$id){
+function empresa($conexion,$id) {
 	
-	$sql="SELECT * FROM empresas e, asistencia_vigilantes av 
-	WHERE e.id=$id
-	AND av.id_empresa=e.id
-	and av.fecha= curdate()";
+	$sql="SELECT * FROM empresas e LEFT JOIN asistencia_vigilantes av
+	ON av.id_empresa=e.id
+	AND av.fecha= curdate()
+	WHERE e.id=$id";
 
     $consulta_empresa= mysqli_query($conexion,$sql);
 
     $empresa = array();
     if ($consulta_empresa && mysqli_num_rows($consulta_empresa) >= 1 ) {
       $empresa=$consulta_empresa;
-    }
+    }else{
+		$empresa=$consulta_empresa;
+	}
 
 		return $empresa;
 

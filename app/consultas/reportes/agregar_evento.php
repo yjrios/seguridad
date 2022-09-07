@@ -1,5 +1,5 @@
 <?php  require_once('../../../config/conexion.php');
-
+require_once('logger.php');
 $id_e = $_SESSION['sesion']['id_empresa']; // variable de tipo session ya creada al seleccionar empresa
 $id_u = $_SESSION['sesion']['id'];
 
@@ -37,7 +37,7 @@ die();*/
 			$error=2;
 		}else {
 			
-						
+					error_log(__LINE__ . ' $id_e ' . $id_e . ' $id_u ' . $fecha . ' $id_u ' . $evidencia . ' $id_u ' . $det_actuacion . ' $acciones_tomadas ' . $acciones_tomadas . ' $recomendaciones ' . $recomendaciones . ' $encargado ' . $encargado . ' $cargo_encargado ' . $cargo_encargado);
 					//INSERT REPORTE
 					$sql_eventos = "INSERT INTO `reporte_eventos` VALUES (NULL,'$id_e','$id_u','$fecha','$evidencia','$det_actuacion','$acciones_tomadas','$recomendaciones','$encargado','$cargo_encargado')";
 					$guardar_reporte=mysqli_query($conexion,$sql_eventos);

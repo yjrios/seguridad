@@ -1,0 +1,91 @@
+[02-Sep-2022 17:52:56 Europe/Berlin] 9 agregandoRIESGO
+[02-Sep-2022 17:52:56 Europe/Berlin] 16 $cantidadRegistros 2
+[02-Sep-2022 17:52:56 Europe/Berlin] 22 $rutaFile img\adjuntos\diario\
+[02-Sep-2022 17:52:56 Europe/Berlin] 28 $trueFalse 
+[02-Sep-2022 17:52:56 Europe/Berlin] 52 $cantidadRegistros!==1
+[02-Sep-2022 17:52:56 Europe/Berlin] 54 $error !==0
+[02-Sep-2022 17:52:56 Europe/Berlin] 22 $rutaFile img\adjuntos\diario\
+[02-Sep-2022 17:52:56 Europe/Berlin] 52 $cantidadRegistros!==1
+[02-Sep-2022 17:52:56 Europe/Berlin] 54 $error !==0
+[02-Sep-2022 17:52:56 Europe/Berlin] 57 $rutaFile img\adjuntos\diario\
+[02-Sep-2022 22:07:59 Europe/Berlin] 9
+[02-Sep-2022 22:07:59 Europe/Berlin] 106
+[02-Sep-2022 22:07:59 Europe/Berlin] 109
+[02-Sep-2022 22:07:59 Europe/Berlin] 118
+[02-Sep-2022 22:07:59 Europe/Berlin] PHP Warning:  Undefined variable $oldfile in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 120
+[02-Sep-2022 22:07:59 Europe/Berlin] 125
+[02-Sep-2022 22:07:59 Europe/Berlin] 130
+[02-Sep-2022 22:07:59 Europe/Berlin] 148
+[02-Sep-2022 22:12:20 Europe/Berlin] 9
+[02-Sep-2022 22:12:20 Europe/Berlin] 106
+[02-Sep-2022 22:12:20 Europe/Berlin] 109
+[02-Sep-2022 22:12:20 Europe/Berlin] 118
+[02-Sep-2022 22:12:20 Europe/Berlin] PHP Warning:  Undefined variable $oldfiles in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 120
+[02-Sep-2022 22:12:20 Europe/Berlin] 125
+[02-Sep-2022 22:12:20 Europe/Berlin] 130
+[02-Sep-2022 22:12:20 Europe/Berlin] 118
+[02-Sep-2022 22:12:20 Europe/Berlin] PHP Warning:  Undefined variable $oldfiles in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 120
+[02-Sep-2022 22:12:20 Europe/Berlin] 125
+[02-Sep-2022 22:12:20 Europe/Berlin] 130
+[02-Sep-2022 22:12:20 Europe/Berlin] 148
+[02-Sep-2022 22:16:33 Europe/Berlin] 9
+[02-Sep-2022 22:19:58 Europe/Berlin] 9
+[02-Sep-2022 22:21:40 Europe/Berlin] PHP Warning:  Undefined array key "newfiles" in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 9
+[02-Sep-2022 22:21:40 Europe/Berlin] PHP Warning:  Undefined array key "oldfiles" in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 9
+[02-Sep-2022 22:21:40 Europe/Berlin] 9 newfiles  oldfiles 
+[02-Sep-2022 22:24:34 Europe/Berlin] PHP Warning:  Undefined array key "oldfiles" in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 9
+[02-Sep-2022 22:24:34 Europe/Berlin] 9 newfiles  oldfiles 
+[02-Sep-2022 22:24:34 Europe/Berlin] 77
+[02-Sep-2022 22:24:34 Europe/Berlin] 79
+[02-Sep-2022 22:24:34 Europe/Berlin] 90
+[02-Sep-2022 22:24:34 Europe/Berlin] 93
+[02-Sep-2022 22:24:34 Europe/Berlin] 160
+[02-Sep-2022 22:24:34 Europe/Berlin] PHP Warning:  Undefined variable $result in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 166
+[02-Sep-2022 22:24:34 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 166
+[02-Sep-2022 22:30:46 Europe/Berlin] PHP Warning:  Undefined array key "oldfiles" in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 9
+[02-Sep-2022 22:30:46 Europe/Berlin] 9 newfiles  oldfiles 
+[02-Sep-2022 22:30:46 Europe/Berlin] 77
+[02-Sep-2022 22:30:46 Europe/Berlin] 79
+[02-Sep-2022 22:30:46 Europe/Berlin] 90
+[02-Sep-2022 22:30:46 Europe/Berlin] 93
+[02-Sep-2022 22:30:46 Europe/Berlin] 160
+[02-Sep-2022 22:30:46 Europe/Berlin] 167
+[02-Sep-2022 22:30:46 Europe/Berlin] 178
+[02-Sep-2022 22:30:46 Europe/Berlin] PHP Warning:  Undefined variable $error in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 183
+[02-Sep-2022 22:33:14 Europe/Berlin] PHP Warning:  Undefined array key "oldfiles" in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 9
+[02-Sep-2022 22:33:14 Europe/Berlin] 9 newfiles  oldfiles 
+[02-Sep-2022 22:33:14 Europe/Berlin] 77
+[02-Sep-2022 22:33:14 Europe/Berlin] 79
+[02-Sep-2022 22:33:14 Europe/Berlin] 90
+[02-Sep-2022 22:33:14 Europe/Berlin] 93
+[02-Sep-2022 22:33:14 Europe/Berlin] 160
+[02-Sep-2022 22:33:14 Europe/Berlin] 167
+[02-Sep-2022 22:33:14 Europe/Berlin] 178
+[02-Sep-2022 22:33:14 Europe/Berlin] PHP Warning:  Undefined variable $error in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 183
+[02-Sep-2022 22:33:30 Europe/Berlin] PHP Warning:  Undefined array key "oldfiles" in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 9
+[02-Sep-2022 22:33:30 Europe/Berlin] 9 newfiles  oldfiles 
+[02-Sep-2022 22:33:30 Europe/Berlin] 77
+[02-Sep-2022 22:33:30 Europe/Berlin] 79
+[02-Sep-2022 22:33:30 Europe/Berlin] 90
+[02-Sep-2022 22:33:30 Europe/Berlin] 93
+[02-Sep-2022 22:33:30 Europe/Berlin] 160
+[02-Sep-2022 22:33:30 Europe/Berlin] 167
+[02-Sep-2022 22:33:30 Europe/Berlin] 178
+[02-Sep-2022 22:33:30 Europe/Berlin] PHP Warning:  Undefined variable $error in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 183
+[02-Sep-2022 22:34:59 Europe/Berlin] 76
+[02-Sep-2022 22:34:59 Europe/Berlin] 78
+[02-Sep-2022 22:34:59 Europe/Berlin] 89
+[02-Sep-2022 22:34:59 Europe/Berlin] 92
+[02-Sep-2022 22:34:59 Europe/Berlin] 159
+[02-Sep-2022 22:34:59 Europe/Berlin] 166
+[02-Sep-2022 22:34:59 Europe/Berlin] 177
+[02-Sep-2022 22:34:59 Europe/Berlin] 183
+[02-Sep-2022 22:34:59 Europe/Berlin] PHP Warning:  Undefined variable $nombrefile in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 184
+[02-Sep-2022 22:34:59 Europe/Berlin] PHP Warning:  Undefined variable $controlriesgo in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 184
+[02-Sep-2022 22:34:59 Europe/Berlin] PHP Warning:  Undefined variable $conexion in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 185
+[02-Sep-2022 22:34:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php:185
+Stack trace:
+#0 C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php(185): mysqli_query(NULL, 'UPDATE `adjunto...')
+#1 C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php(99): guardar('', 0)
+#2 {main}
+  thrown in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 185

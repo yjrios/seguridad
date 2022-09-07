@@ -1,0 +1,14 @@
+[07-Sep-2022 14:32:14 Europe/Berlin] 74
+[07-Sep-2022 14:32:14 Europe/Berlin] 76
+[07-Sep-2022 14:32:14 Europe/Berlin] PHP Warning:  unlink(C:\xampp\htdocs\Project\sicong\img\adjuntos\riesgo\): Is a directory in C:\xampp\htdocs\Project\sicong\app\consultas\reportes\editfiles_riesgo.php on line 176
+[07-Sep-2022 14:32:14 Europe/Berlin] 185
+[07-Sep-2022 14:32:14 Europe/Berlin] 196 $nombreFile Francky.txt
+[07-Sep-2022 14:32:14 Europe/Berlin] 214
+[07-Sep-2022 14:32:14 Europe/Berlin] 216
+[07-Sep-2022 14:32:14 Europe/Berlin] 227
+[07-Sep-2022 14:32:14 Europe/Berlin] 229
+[07-Sep-2022 14:32:14 Europe/Berlin] 196 $nombreFile img.png
+[07-Sep-2022 14:32:14 Europe/Berlin] 214
+[07-Sep-2022 14:32:14 Europe/Berlin] 216
+[07-Sep-2022 14:32:14 Europe/Berlin] 218 $nombreFile img.png $nombrearchivos Francky.txt
+[07-Sep-2022 14:32:14 Europe/Berlin] 220 $nombrearchivos Francky.txt,img.png

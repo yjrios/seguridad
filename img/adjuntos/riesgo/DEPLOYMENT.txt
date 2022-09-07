@@ -1,0 +1,39 @@
+Crear DBA en el servidor.
+Limpiar base de datos
+exportar DBA local para importarla en el servidor
+se sube el api a el servidor
+se instala pm2 para dejarla ejecutando asi existan fallos o reboot de la maquina
+
+en archivo vue.config.js añadir las siguientes lineas
+
+css: {
+    extract: {
+      ignoreOrder: true
+    },
+  },
+  publicPath: ''
+
+
+
+
+/////////////// LISTAR PUERTOS EN USO LINUX
+
+sudo netstat -plten
+
+/////////////// BAJAR PROCESO DE UN PUERTO LINUX
+
+sudo kill -9 id_proceso
+
+/////////////// COMANDOS PM2
+
+pm2 list ---------> listar procesos iniciados
+pm2 start app.js --name "NOMBRE" ---------> Iniciar proceso con pm2 con nombre
+pm2 stop nombre ---------> Detener proceso
+pm2 log index_proceso ---------> Mostrar los logs de pm2 para un proceso
+pm2 restart index_proceso ---------> Reiniciar con pm2 un proceso
+
+/////////////// COMANDOS PARA SERVIDOR APACHE LINUX
+
+systemctl restart httpd.service
+systemctl start httpd.service
+systemctl stop httpd.service

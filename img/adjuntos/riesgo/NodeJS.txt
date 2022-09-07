@@ -1,0 +1,18 @@
+########## Install Node
+Buscar en la pág NodeJS.org
+
+Luego iniciar con el siguiente comando ----> npm init --yes
+luego ejecutar instalación de express ----> npm i express --save
+luego configurar app.js para usar express con su const require('express')
+luego install nodemon ----> npm i -g nodemon
+luego configurar en el package.json en el scritp "dev": "nodemon app.jss" para que al guardar los cambios siga en RUN
+luego instalar morgan npm i morgan --save
+Config morgan app.use('morgan')
+luego instalar cors npm i cors --save
+Config cors app.use('cors')
+config manejo de JSON con express.json
+config el urlencoded app.use(expres.urlencoded({extended: true}))
+intall babel con el comando npm i -D babel/core @babel/cli @babel/present-env @babel/node, para trabajar las ultimas versiones de JS
+
+Version Vuitify 2.6.0
+Version Vuitify 2.6

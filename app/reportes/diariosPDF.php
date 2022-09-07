@@ -9,15 +9,22 @@ $sql_diario="SELECT rd.id AS numero, u.nombre AS usuario, u.cargo , e.nombre AS 
          AND rd.id=ds.id_reporte 
          AND ds.id_suceso=s.id 
          AND rd.id = $id";
+//YEISON
+$sql_adjuntos = "SELECT files FROM adjuntos_diarios WHERE id_reporte = $id";
+//YEISON 
 
-  
-  
   $consulta_reporte = mysqli_query($conexion,$sql_diario);
    
    //PARA VER EL ERROR DE UNA CONSULTA echo mysqli_error($conexion);
 
   $consulta_reporte2 = mysqli_query($conexion,$sql_diario);
   $consulta_reporte3 = mysqli_query($conexion,$sql_diario);
+
+  //YEISON
+  $consulta_adjuntos = mysqli_query($conexion, $sql_adjuntos);
+  $adjuntos = mysqli_fetch_assoc($consulta_adjuntos);
+  $files = explode(",",$adjuntos['files']);
+  //YEISON
 
   $reporte = mysqli_fetch_assoc($consulta_reporte) ;
 
@@ -102,6 +109,14 @@ div.margen{
        
     }
 
+.lista{
+margin: 0;
+padding: 10px 10px 10px 30px;
+display: inline-block;
+background-repeat: no-repeat;
+background-size: 30px;
+}
+
 @page { size: auto;  margin: 4mm; }
 
     </style>
@@ -183,6 +198,37 @@ div.margen{
                 <p><?= nl2br($reporte['descripcion'])?> </p>
               </div>
               <br>
+              <!-- YEISON -->
+              <h5><strong>ARCHIVOS ADJUNTADOS : </strong></h5>
+                <div class="margen">
+                    <ul style="list-style: none;">
+                      <?php
+                        foreach ($files as $file) {
+                          $extension = explode(".",$file);
+                          if($extension[1]==='png' || $extension[1]==='jpg' || $extension[1]==='jpeg'):
+                      ?>
+                        <li class="lista" style="background-image: url('../../img/icono_img.png');">
+                          <span><?=$file?></span>
+                        </li>
+                      <?php
+                        elseif($extension[1]==='docx' || $extension[1]==='doc' || $extension[1]==='xls' || $extension[1]==='xlsx' || $extension[1]==='pptx' || $extension[1] ==='ppt' || $extension[1]==='pdf' || $extension[1]==='txt'):
+                      ?>
+                         <li class="lista" style="background-image: url('../../img/archivo.png');">
+                          <span><?=$file?></span>
+                        </li>
+                      <?php
+                        elseif($extension[1] === 'mp4' || $extension[1] === 'mkv' || $extension[1] === 'avi' || $extension[1] === 'mov'):
+                      ?>
+                        <li class="lista" style="background-image: url('../../img/camara-de-video.png');">
+                          <span><?=$file?></span>
+                        </li>
+                      <?php
+                        endif;
+                        } //cierre for
+                      ?>
+                    </ul>
+                </div>
+              <!-- YEISON -->
             <div >
                <table class="table table-bordered">
                 <tr>
