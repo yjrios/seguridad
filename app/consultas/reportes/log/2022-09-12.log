@@ -1,0 +1,946 @@
+[12-Sep-2022 17:04:29 Europe/Berlin] 6 visualizar diario
+[12-Sep-2022 17:04:29 Europe/Berlin] 35 $router \img\adjuntos\diario\
+[12-Sep-2022 17:04:29 Europe/Berlin] 36 $files 
+[12-Sep-2022 17:04:29 Europe/Berlin] 219
+[12-Sep-2022 17:04:29 Europe/Berlin] 225 sizeof($adjuntos) 8
+[12-Sep-2022 17:08:09 Europe/Berlin] 6 visualizar diario
+[12-Sep-2022 17:08:09 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\Project\sicong\app\consultas\visualizar\visualizar_diario.php on line 29
+[12-Sep-2022 17:08:09 Europe/Berlin] 29 $files Array
+[12-Sep-2022 17:08:09 Europe/Berlin] 34
+[12-Sep-2022 17:08:09 Europe/Berlin] 38 $router \img\adjuntos\diario\
+[12-Sep-2022 17:08:09 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\Project\sicong\app\consultas\visualizar\visualizar_diario.php on line 39
+[12-Sep-2022 17:08:09 Europe/Berlin] 39 $files Array
+[12-Sep-2022 17:08:09 Europe/Berlin] 222
+[12-Sep-2022 17:08:09 Europe/Berlin] 228 sizeof($adjuntos) 8
+[12-Sep-2022 17:09:40 Europe/Berlin] 6 visualizar diario
+[12-Sep-2022 17:09:40 Europe/Berlin] 29 $files  Files NodeJS.txt
+[12-Sep-2022 17:09:40 Europe/Berlin] 34
+[12-Sep-2022 17:09:40 Europe/Berlin] 38 $router \img\adjuntos\diario\
+[12-Sep-2022 17:09:40 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\Project\sicong\app\consultas\visualizar\visualizar_diario.php on line 39
+[12-Sep-2022 17:09:40 Europe/Berlin] 39 $files Array
+[12-Sep-2022 17:09:40 Europe/Berlin] 222
+[12-Sep-2022 17:09:40 Europe/Berlin] 228 sizeof($adjuntos) 8
+[12-Sep-2022 17:10:41 Europe/Berlin] 6 visualizar diario
+[12-Sep-2022 17:10:41 Europe/Berlin] 29 $files  Files NodeJS.txt
+[12-Sep-2022 17:10:41 Europe/Berlin] 34
+[12-Sep-2022 17:10:41 Europe/Berlin] 38 $router \img\adjuntos\diario\
+[12-Sep-2022 17:10:41 Europe/Berlin] 39 $files 
+[12-Sep-2022 17:10:41 Europe/Berlin] 222
+[12-Sep-2022 17:10:41 Europe/Berlin] 228 sizeof($adjuntos) 8
+[12-Sep-2022 17:11:50 Europe/Berlin] 6 visualizar diario
+[12-Sep-2022 17:11:50 Europe/Berlin] 29 $files  Files NodeJS.txt
+[12-Sep-2022 17:11:50 Europe/Berlin] 34
+[12-Sep-2022 17:11:50 Europe/Berlin] 38 $router \img\adjuntos\diario\
+[12-Sep-2022 17:11:50 Europe/Berlin] 39 $files 
+[12-Sep-2022 17:11:50 Europe/Berlin] 222
+[12-Sep-2022 17:11:50 Europe/Berlin] 228 sizeof($adjuntos) 8
+[12-Sep-2022 17:13:30 Europe/Berlin] 6 visualizar diario
+[12-Sep-2022 17:13:30 Europe/Berlin] 29 $files  Files NodeJS.txt
+[12-Sep-2022 17:13:30 Europe/Berlin] 34
+[12-Sep-2022 17:13:30 Europe/Berlin] 38 $router \img\adjuntos\diario\
+[12-Sep-2022 17:13:30 Europe/Berlin] 39 $files 1
+[12-Sep-2022 17:13:30 Europe/Berlin] 222
+[12-Sep-2022 17:13:30 Europe/Berlin] 228 sizeof($adjuntos) 8
+[12-Sep-2022 17:17:18 Europe/Berlin] 6 visualizar diario
+[12-Sep-2022 17:17:18 Europe/Berlin] 29 $files  Files logoseguridad.png
+[12-Sep-2022 17:17:18 Europe/Berlin] 34
+[12-Sep-2022 17:17:18 Europe/Berlin] 38 $router \img\adjuntos\diario\
+[12-Sep-2022 17:17:18 Europe/Berlin] PHP Warning:  Undefined array key 1 in C:\xampp\htdocs\Project\sicong\app\consultas\visualizar\visualizar_diario.php on line 39
+[12-Sep-2022 17:17:18 Europe/Berlin] 39 $files 1
+[12-Sep-2022 17:17:18 Europe/Berlin] 222
+[12-Sep-2022 17:17:18 Europe/Berlin] 228 sizeof($adjuntos) 8
+[12-Sep-2022 17:18:45 Europe/Berlin] 6 visualizar diario
+[12-Sep-2022 17:18:45 Europe/Berlin] 29 $files  Files NodeJS.txt
+[12-Sep-2022 17:18:45 Europe/Berlin] 35
+[12-Sep-2022 17:18:45 Europe/Berlin] 38 $router \img\adjuntos\diario\
+[12-Sep-2022 17:18:45 Europe/Berlin] 39 $files 1
+[12-Sep-2022 17:18:45 Europe/Berlin] 222
+[12-Sep-2022 17:18:45 Europe/Berlin] 228 sizeof($adjuntos) 8
+[12-Sep-2022 17:21:13 Europe/Berlin] 6 visualizar diario
+[12-Sep-2022 17:21:13 Europe/Berlin] 29 $files  Files NodeJS.txt
+[12-Sep-2022 17:21:13 Europe/Berlin] 35
+[12-Sep-2022 17:21:13 Europe/Berlin] 220
+[12-Sep-2022 17:21:13 Europe/Berlin] 226 count($adjuntos) 8
+[12-Sep-2022 17:26:54 Europe/Berlin] 5 visualizar diario
+[12-Sep-2022 17:26:54 Europe/Berlin] 28 $files  Files logoseguridad.png
+[12-Sep-2022 17:26:54 Europe/Berlin] 34
+[12-Sep-2022 17:26:54 Europe/Berlin] 219
+[12-Sep-2022 17:26:54 Europe/Berlin] 225 count($adjuntos) 8
+[12-Sep-2022 17:26:54 Europe/Berlin] PHP Warning:  Undefined variable $activeClass in C:\xampp\htdocs\Project\sicong\app\consultas\visualizar\visualizar_diario.php on line 226
+[12-Sep-2022 17:26:54 Europe/Berlin] 238FOREACHE
+[12-Sep-2022 17:28:25 Europe/Berlin] 5 visualizar diario
+[12-Sep-2022 17:28:25 Europe/Berlin] 28 $files  Files logoseguridad.png
+[12-Sep-2022 17:28:25 Europe/Berlin] 34
+[12-Sep-2022 17:28:25 Europe/Berlin] 219
+[12-Sep-2022 17:28:25 Europe/Berlin] PHP Warning:  Undefined variable $activeClass in C:\xampp\htdocs\Project\sicong\app\consultas\visualizar\visualizar_diario.php on line 224
+[12-Sep-2022 17:28:25 Europe/Berlin] 237SetActive
+[12-Sep-2022 17:28:25 Europe/Berlin] 241FOREACHE
+[12-Sep-2022 17:29:12 Europe/Berlin] 5 visualizar diario
+[12-Sep-2022 17:29:12 Europe/Berlin] 28 $files  Files NodeJS.txt
+[12-Sep-2022 17:29:12 Europe/Berlin] 34
+[12-Sep-2022 17:29:12 Europe/Berlin] 219
+[12-Sep-2022 17:29:12 Europe/Berlin] PHP Warning:  Undefined variable $activeClass in C:\xampp\htdocs\Project\sicong\app\consultas\visualizar\visualizar_diario.php on line 224
+[12-Sep-2022 17:29:12 Europe/Berlin] 237SetActive
+[12-Sep-2022 17:29:12 Europe/Berlin] 241FOREACHE
+[12-Sep-2022 17:31:15 Europe/Berlin] 5 visualizar diario
+[12-Sep-2022 17:31:15 Europe/Berlin] 28 $files  Files NodeJS.txt
+[12-Sep-2022 17:31:15 Europe/Berlin] 34
+[12-Sep-2022 17:31:15 Europe/Berlin] 219
+[12-Sep-2022 17:31:15 Europe/Berlin] 237SetActive
+[12-Sep-2022 17:31:15 Europe/Berlin] 242FOREACHE
+[12-Sep-2022 17:32:16 Europe/Berlin] 5 visualizar diario
+[12-Sep-2022 17:32:16 Europe/Berlin] 28 $files  Files NodeJS.txt
+[12-Sep-2022 17:32:16 Europe/Berlin] 34
+[12-Sep-2022 17:32:16 Europe/Berlin] 219
+[12-Sep-2022 17:32:16 Europe/Berlin] 237SetActive
+[12-Sep-2022 17:32:16 Europe/Berlin] 242FOREACHE \img\adjuntos\diario\0
+[12-Sep-2022 17:38:37 Europe/Berlin] 5 visualizar diario
+[12-Sep-2022 17:38:37 Europe/Berlin] 28 $files  Files NodeJS.txt
+[12-Sep-2022 17:38:37 Europe/Berlin] 34
+[12-Sep-2022 17:38:37 Europe/Berlin] 219
+[12-Sep-2022 17:38:37 Europe/Berlin] 237SetActive
+[12-Sep-2022 17:38:37 Europe/Berlin] 242FOREACHE \img\adjuntos\diario\0
+[12-Sep-2022 17:40:16 Europe/Berlin] 5 visualizar diario
+[12-Sep-2022 17:40:16 Europe/Berlin] 28 $files  Files NodeJS.txt
+[12-Sep-2022 17:40:16 Europe/Berlin] 34
+[12-Sep-2022 17:40:16 Europe/Berlin] 219
+[12-Sep-2022 17:40:16 Europe/Berlin] 237SetActive
+[12-Sep-2022 17:40:16 Europe/Berlin] 242FOREACHE \img\adjuntos\diario\0
+[12-Sep-2022 17:42:27 Europe/Berlin] 5 visualizar diario
+[12-Sep-2022 17:42:27 Europe/Berlin] 28 $files  Files NodeJS.txt
+[12-Sep-2022 17:42:27 Europe/Berlin] 34 $adjuntos["files"] NodeJS.txt
+[12-Sep-2022 17:42:27 Europe/Berlin] 219
+[12-Sep-2022 17:42:27 Europe/Berlin] 237SetActive
+[12-Sep-2022 17:42:27 Europe/Berlin] 242 FOREACHE \img\adjuntos\diario\0
+[12-Sep-2022 17:47:16 Europe/Berlin] 5 visualizar diario
+[12-Sep-2022 17:47:16 Europe/Berlin] 28 $files  Files NodeJS.txt
+[12-Sep-2022 17:47:16 Europe/Berlin] 34 $adjuntos["files"] NodeJS.txt
+[12-Sep-2022 17:47:16 Europe/Berlin] 37 $files Array
+(
+    [0] => NodeJS.txt
+)
+
+[12-Sep-2022 17:47:16 Europe/Berlin] 219
+[12-Sep-2022 17:47:16 Europe/Berlin] 237SetActive
+[12-Sep-2022 17:47:16 Europe/Berlin] 242 FOREACHE \img\adjuntos\diario\0
+[12-Sep-2022 17:48:03 Europe/Berlin] 5 visualizar diario
+[12-Sep-2022 17:48:03 Europe/Berlin] 28 $files  Files NodeJS.txt
+[12-Sep-2022 17:48:03 Europe/Berlin] 34 $adjuntos["files"] NodeJS.txt
+[12-Sep-2022 17:48:03 Europe/Berlin] 37 $files Array
+(
+    [0] => NodeJS.txt
+)
+
+[12-Sep-2022 17:48:03 Europe/Berlin] 219
+[12-Sep-2022 17:48:03 Europe/Berlin] 235 $files Array
+(
+    [0] => NodeJS.txt
+)
+
+[12-Sep-2022 17:48:03 Europe/Berlin] 238SetActive
+[12-Sep-2022 17:48:03 Europe/Berlin] 243 FOREACHE \img\adjuntos\diario\0
+[12-Sep-2022 17:49:35 Europe/Berlin] 5 visualizar diario
+[12-Sep-2022 17:49:35 Europe/Berlin] 28 $files  Files NodeJS.txt
+[12-Sep-2022 17:49:35 Europe/Berlin] 34 $adjuntos["files"] NodeJS.txt
+[12-Sep-2022 17:49:35 Europe/Berlin] 37 $files Array
+(
+    [0] => NodeJS.txt
+)
+
+[12-Sep-2022 17:49:35 Europe/Berlin] 219
+[12-Sep-2022 17:49:35 Europe/Berlin] 235 $files Array
+(
+    [0] => NodeJS.txt
+)
+
+[12-Sep-2022 17:49:35 Europe/Berlin] 237 $item 0 $key NodeJS.txt
+[12-Sep-2022 17:49:35 Europe/Berlin] 239SetActive
+[12-Sep-2022 17:49:35 Europe/Berlin] 244 FOREACHE \img\adjuntos\diario\0
+[12-Sep-2022 17:50:16 Europe/Berlin] 5 visualizar diario
+[12-Sep-2022 17:50:16 Europe/Berlin] 28 $files  Files NodeJS.txt
+[12-Sep-2022 17:50:16 Europe/Berlin] 34 $adjuntos["files"] NodeJS.txt
+[12-Sep-2022 17:50:16 Europe/Berlin] 37 $files Array
+(
+    [0] => NodeJS.txt
+)
+
+[12-Sep-2022 17:50:16 Europe/Berlin] 219
+[12-Sep-2022 17:50:16 Europe/Berlin] 235 $files Array
+(
+    [0] => NodeJS.txt
+)
+
+[12-Sep-2022 17:50:16 Europe/Berlin] 237 $item NodeJS.txt $key 0
+[12-Sep-2022 17:50:16 Europe/Berlin] 239SetActive
+[12-Sep-2022 17:50:16 Europe/Berlin] 244 FOREACHE \img\adjuntos\diario\NodeJS.txt
+[12-Sep-2022 17:53:21 Europe/Berlin] 5 visualizar diario
+[12-Sep-2022 17:53:21 Europe/Berlin] 28 $files  Files NodeJS.txt
+[12-Sep-2022 17:53:21 Europe/Berlin] 34 $adjuntos["files"] NodeJS.txt
+[12-Sep-2022 17:53:21 Europe/Berlin] 37 $files Array
+(
+    [0] => NodeJS.txt
+)
+
+[12-Sep-2022 17:53:21 Europe/Berlin] 219
+[12-Sep-2022 17:53:21 Europe/Berlin] 235 $files Array
+(
+    [0] => NodeJS.txt
+)
+
+[12-Sep-2022 17:53:21 Europe/Berlin] 237 $item NodeJS.txt $key 0
+[12-Sep-2022 17:53:21 Europe/Berlin] 239SetActive
+[12-Sep-2022 17:53:21 Europe/Berlin] 245 FOREACHE C:\xampp\htdocs\Project\sicong\img\adjuntos\diario\NodeJS.txt
+[12-Sep-2022 17:54:04 Europe/Berlin] 5 visualizar diario
+[12-Sep-2022 17:54:04 Europe/Berlin] 28 $files  Files img.png
+[12-Sep-2022 17:54:04 Europe/Berlin] 34 $adjuntos["files"] img.png
+[12-Sep-2022 17:54:04 Europe/Berlin] 37 $files Array
+(
+    [0] => img.png
+)
+
+[12-Sep-2022 17:54:04 Europe/Berlin] 219
+[12-Sep-2022 17:54:04 Europe/Berlin] 235 $files Array
+(
+    [0] => img.png
+)
+
+[12-Sep-2022 17:54:04 Europe/Berlin] 237 $item img.png $key 0
+[12-Sep-2022 17:54:04 Europe/Berlin] 239SetActive
+[12-Sep-2022 17:54:04 Europe/Berlin] 245 FOREACHE C:\xampp\htdocs\Project\sicong\img\adjuntos\diario\img.png
+[12-Sep-2022 18:04:23 Europe/Berlin] 5 visualizar diario
+[12-Sep-2022 18:04:23 Europe/Berlin] 28 $files  Files NodeJS.txt
+[12-Sep-2022 18:04:23 Europe/Berlin] 34 $adjuntos["files"] NodeJS.txt
+[12-Sep-2022 18:04:23 Europe/Berlin] 37 $files Array
+(
+    [0] => NodeJS.txt
+)
+
+[12-Sep-2022 18:04:23 Europe/Berlin] 219
+[12-Sep-2022 18:04:23 Europe/Berlin] 222 $files Array
+(
+    [0] => NodeJS.txt
+)
+
+[12-Sep-2022 18:04:23 Europe/Berlin] 224 $item NodeJS.txt $key 0
+[12-Sep-2022 18:04:23 Europe/Berlin] 226SetActive
+[12-Sep-2022 18:05:38 Europe/Berlin] 5 visualizar diario
+[12-Sep-2022 18:05:38 Europe/Berlin] 28 $files  Files NodeJS.txt
+[12-Sep-2022 18:05:38 Europe/Berlin] 34 $adjuntos["files"] NodeJS.txt
+[12-Sep-2022 18:05:38 Europe/Berlin] 37 $files Array
+(
+    [0] => NodeJS.txt
+)
+
+[12-Sep-2022 18:05:38 Europe/Berlin] 219
+[12-Sep-2022 18:05:38 Europe/Berlin] 222 $files Array
+(
+    [0] => NodeJS.txt
+)
+
+[12-Sep-2022 18:05:38 Europe/Berlin] 224 $item NodeJS.txt $key 0
+[12-Sep-2022 18:05:38 Europe/Berlin] 226SetActive
+[12-Sep-2022 18:06:26 Europe/Berlin] 5 visualizar diario
+[12-Sep-2022 18:06:26 Europe/Berlin] 28 $files  Files img.png
+[12-Sep-2022 18:06:26 Europe/Berlin] 34 $adjuntos["files"] img.png
+[12-Sep-2022 18:06:26 Europe/Berlin] 37 $files Array
+(
+    [0] => img.png
+)
+
+[12-Sep-2022 18:06:26 Europe/Berlin] 219
+[12-Sep-2022 18:06:26 Europe/Berlin] 222 $files Array
+(
+    [0] => img.png
+)
+
+[12-Sep-2022 18:06:26 Europe/Berlin] 224 $item img.png $key 0
+[12-Sep-2022 18:06:26 Europe/Berlin] 226SetActive
+[12-Sep-2022 20:00:29 Europe/Berlin] 5 visualizar diario
+[12-Sep-2022 20:00:29 Europe/Berlin] 28 $files  Files NodeJS.txt
+[12-Sep-2022 20:00:29 Europe/Berlin] 34 $adjuntos["files"] NodeJS.txt
+[12-Sep-2022 20:00:29 Europe/Berlin] 37 $files Array
+(
+    [0] => NodeJS.txt
+)
+
+[12-Sep-2022 20:00:29 Europe/Berlin] 219
+[12-Sep-2022 20:00:29 Europe/Berlin] 222 $files Array
+(
+    [0] => NodeJS.txt
+)
+
+[12-Sep-2022 20:00:29 Europe/Berlin] 224 $item NodeJS.txt $key 0
+[12-Sep-2022 20:00:29 Europe/Berlin] 226SetActive
+[12-Sep-2022 20:09:35 Europe/Berlin] 5 visualizar diario
+[12-Sep-2022 20:09:35 Europe/Berlin] 28 $files  Files NodeJS.txt
+[12-Sep-2022 20:09:35 Europe/Berlin] 34 $adjuntos["files"] NodeJS.txt
+[12-Sep-2022 20:09:35 Europe/Berlin] 37 $files Array
+(
+    [0] => NodeJS.txt
+)
+
+[12-Sep-2022 20:09:35 Europe/Berlin] 219
+[12-Sep-2022 20:09:35 Europe/Berlin] 222 $files Array
+(
+    [0] => NodeJS.txt
+)
+
+[12-Sep-2022 20:09:35 Europe/Berlin] 224 $item NodeJS.txt $key 0
+[12-Sep-2022 20:09:35 Europe/Berlin] 226SetActive
+[12-Sep-2022 20:21:58 Europe/Berlin] 5 visualizar diario
+[12-Sep-2022 20:21:58 Europe/Berlin] 28 $files  Files NodeJS.txt
+[12-Sep-2022 20:21:58 Europe/Berlin] 34 $adjuntos["files"] NodeJS.txt
+[12-Sep-2022 20:21:58 Europe/Berlin] 37 $files Array
+(
+    [0] => NodeJS.txt
+)
+
+[12-Sep-2022 20:21:58 Europe/Berlin] 219
+[12-Sep-2022 20:21:58 Europe/Berlin] 222 $files Array
+(
+    [0] => NodeJS.txt
+)
+
+[12-Sep-2022 20:21:58 Europe/Berlin] 224 $item NodeJS.txt $key 0
+[12-Sep-2022 20:21:58 Europe/Berlin] 226SetActive
+[12-Sep-2022 20:23:21 Europe/Berlin] 5 visualizar diario
+[12-Sep-2022 20:23:21 Europe/Berlin] 28 $files  Files NodeJS.txt
+[12-Sep-2022 20:23:21 Europe/Berlin] 34 $adjuntos["files"] NodeJS.txt
+[12-Sep-2022 20:23:21 Europe/Berlin] 37 $files Array
+(
+    [0] => NodeJS.txt
+)
+
+[12-Sep-2022 20:23:21 Europe/Berlin] 219
+[12-Sep-2022 20:23:21 Europe/Berlin] 222 $files Array
+(
+    [0] => NodeJS.txt
+)
+
+[12-Sep-2022 20:23:21 Europe/Berlin] 224 $item NodeJS.txt $key 0
+[12-Sep-2022 20:23:21 Europe/Berlin] 226SetActive
+[12-Sep-2022 20:56:07 Europe/Berlin] 5 visualizar diario
+[12-Sep-2022 20:56:07 Europe/Berlin] 28 $files  Files NodeJS.txt
+[12-Sep-2022 20:56:07 Europe/Berlin] 34 $adjuntos["files"] NodeJS.txt
+[12-Sep-2022 20:56:07 Europe/Berlin] 37 $files Array
+(
+    [0] => NodeJS.txt
+)
+
+[12-Sep-2022 20:56:07 Europe/Berlin] 219
+[12-Sep-2022 20:56:07 Europe/Berlin] 222 $files Array
+(
+    [0] => NodeJS.txt
+)
+
+[12-Sep-2022 20:56:07 Europe/Berlin] 224 $item NodeJS.txt $key 0
+[12-Sep-2022 20:56:07 Europe/Berlin] 226SetActive
+[12-Sep-2022 20:56:35 Europe/Berlin] 5 visualizar diario
+[12-Sep-2022 20:56:35 Europe/Berlin] 28 $files  Files NodeJS.txt
+[12-Sep-2022 20:56:35 Europe/Berlin] 34 $adjuntos["files"] NodeJS.txt
+[12-Sep-2022 20:56:35 Europe/Berlin] 37 $files Array
+(
+    [0] => NodeJS.txt
+)
+
+[12-Sep-2022 20:56:35 Europe/Berlin] 219
+[12-Sep-2022 20:56:35 Europe/Berlin] 222 $files Array
+(
+    [0] => NodeJS.txt
+)
+
+[12-Sep-2022 20:56:35 Europe/Berlin] 224 $item NodeJS.txt $key 0
+[12-Sep-2022 20:56:35 Europe/Berlin] 226SetActive
+[12-Sep-2022 20:57:17 Europe/Berlin] 5 visualizar diario
+[12-Sep-2022 20:57:17 Europe/Berlin] 28 $files  Files img.png
+[12-Sep-2022 20:57:17 Europe/Berlin] 34 $adjuntos["files"] img.png
+[12-Sep-2022 20:57:17 Europe/Berlin] 37 $files Array
+(
+    [0] => img.png
+)
+
+[12-Sep-2022 20:57:17 Europe/Berlin] 219
+[12-Sep-2022 20:57:17 Europe/Berlin] 222 $files Array
+(
+    [0] => img.png
+)
+
+[12-Sep-2022 20:57:17 Europe/Berlin] 224 $item img.png $key 0
+[12-Sep-2022 20:57:17 Europe/Berlin] 226SetActive
+[12-Sep-2022 21:00:07 Europe/Berlin] 5 visualizar diario
+[12-Sep-2022 21:00:07 Europe/Berlin] 28 $files  Files NodeJS.txt
+[12-Sep-2022 21:00:07 Europe/Berlin] 34 $adjuntos["files"] NodeJS.txt
+[12-Sep-2022 21:00:07 Europe/Berlin] 37 $files Array
+(
+    [0] => NodeJS.txt
+)
+
+[12-Sep-2022 21:00:07 Europe/Berlin] 219
+[12-Sep-2022 21:00:07 Europe/Berlin] 222 $files Array
+(
+    [0] => NodeJS.txt
+)
+
+[12-Sep-2022 21:00:07 Europe/Berlin] 224 $item NodeJS.txt $key 0
+[12-Sep-2022 21:00:07 Europe/Berlin] 226SetActive
+[12-Sep-2022 21:00:23 Europe/Berlin] 5 visualizar diario
+[12-Sep-2022 21:00:23 Europe/Berlin] 28 $files  Files img.png
+[12-Sep-2022 21:00:23 Europe/Berlin] 34 $adjuntos["files"] img.png
+[12-Sep-2022 21:00:23 Europe/Berlin] 37 $files Array
+(
+    [0] => img.png
+)
+
+[12-Sep-2022 21:00:23 Europe/Berlin] 219
+[12-Sep-2022 21:00:23 Europe/Berlin] 222 $files Array
+(
+    [0] => img.png
+)
+
+[12-Sep-2022 21:00:23 Europe/Berlin] 224 $item img.png $key 0
+[12-Sep-2022 21:00:23 Europe/Berlin] 226SetActive
+[12-Sep-2022 21:01:16 Europe/Berlin] 5 visualizar diario
+[12-Sep-2022 21:01:16 Europe/Berlin] 28 $files  Files img.png
+[12-Sep-2022 21:01:16 Europe/Berlin] 34 $adjuntos["files"] img.png
+[12-Sep-2022 21:01:16 Europe/Berlin] 37 $files Array
+(
+    [0] => img.png
+)
+
+[12-Sep-2022 21:01:16 Europe/Berlin] 219
+[12-Sep-2022 21:01:16 Europe/Berlin] 222 $files Array
+(
+    [0] => img.png
+)
+
+[12-Sep-2022 21:01:16 Europe/Berlin] 224 $item img.png $key 0
+[12-Sep-2022 21:01:16 Europe/Berlin] 226SetActive
+[12-Sep-2022 21:01:16 Europe/Berlin] 234 FOREACHE http://8080\img\adjuntos\diario\img.png
+[12-Sep-2022 21:03:30 Europe/Berlin] 5 visualizar diario
+[12-Sep-2022 21:03:30 Europe/Berlin] 28 $files  Files img.png
+[12-Sep-2022 21:03:30 Europe/Berlin] 34 $adjuntos["files"] img.png
+[12-Sep-2022 21:03:30 Europe/Berlin] 37 $files Array
+(
+    [0] => img.png
+)
+
+[12-Sep-2022 21:03:30 Europe/Berlin] 219
+[12-Sep-2022 21:03:30 Europe/Berlin] 222 $files Array
+(
+    [0] => img.png
+)
+
+[12-Sep-2022 21:03:30 Europe/Berlin] 224 $item img.png $key 0
+[12-Sep-2022 21:03:30 Europe/Berlin] 226SetActive
+[12-Sep-2022 21:03:30 Europe/Berlin] 234 FOREACHE http://localhost:8080\img\adjuntos\diario\img.png
+[12-Sep-2022 21:05:18 Europe/Berlin] 6 visualizar diario
+[12-Sep-2022 21:05:18 Europe/Berlin] 29 $files  Files img.png
+[12-Sep-2022 21:05:18 Europe/Berlin] 35 $adjuntos["files"] img.png
+[12-Sep-2022 21:05:18 Europe/Berlin] 38 $files Array
+(
+    [0] => img.png
+)
+
+[12-Sep-2022 21:05:18 Europe/Berlin] 220
+[12-Sep-2022 21:05:18 Europe/Berlin] 223 $files Array
+(
+    [0] => img.png
+)
+
+[12-Sep-2022 21:05:18 Europe/Berlin] 225 $item img.png $key 0
+[12-Sep-2022 21:05:18 Europe/Berlin] 227SetActive
+[12-Sep-2022 21:05:18 Europe/Berlin] 235 FOREACHE http:\\localhost:8080\img\adjuntos\diario\img.png
+[12-Sep-2022 21:06:16 Europe/Berlin] 6 visualizar diario
+[12-Sep-2022 21:06:16 Europe/Berlin] 29 $files  Files img.png
+[12-Sep-2022 21:06:16 Europe/Berlin] 35 $adjuntos["files"] img.png
+[12-Sep-2022 21:06:16 Europe/Berlin] 38 $files Array
+(
+    [0] => img.png
+)
+
+[12-Sep-2022 21:06:16 Europe/Berlin] 220
+[12-Sep-2022 21:06:16 Europe/Berlin] 223 $files Array
+(
+    [0] => img.png
+)
+
+[12-Sep-2022 21:06:16 Europe/Berlin] 225 $item img.png $key 0
+[12-Sep-2022 21:06:16 Europe/Berlin] 227SetActive
+[12-Sep-2022 21:06:16 Europe/Berlin] 235 FOREACHE localhost:8080\img\adjuntos\diario\img.png
+[12-Sep-2022 21:07:53 Europe/Berlin] 6 visualizar diario
+[12-Sep-2022 21:07:53 Europe/Berlin] 29 $files  Files img.png
+[12-Sep-2022 21:07:53 Europe/Berlin] 35 $adjuntos["files"] img.png
+[12-Sep-2022 21:07:53 Europe/Berlin] 38 $files Array
+(
+    [0] => img.png
+)
+
+[12-Sep-2022 21:07:53 Europe/Berlin] 220
+[12-Sep-2022 21:07:53 Europe/Berlin] 223 $files Array
+(
+    [0] => img.png
+)
+
+[12-Sep-2022 21:07:53 Europe/Berlin] 225 $item img.png $key 0
+[12-Sep-2022 21:07:53 Europe/Berlin] 227SetActive
+[12-Sep-2022 21:07:53 Europe/Berlin] 235 FOREACHE localhost:8080\\img\adjuntos\diario\img.png
+[12-Sep-2022 21:08:45 Europe/Berlin] 6 visualizar diario
+[12-Sep-2022 21:08:45 Europe/Berlin] 29 $files  Files img.png
+[12-Sep-2022 21:08:45 Europe/Berlin] 35 $adjuntos["files"] img.png
+[12-Sep-2022 21:08:45 Europe/Berlin] 38 $files Array
+(
+    [0] => img.png
+)
+
+[12-Sep-2022 21:08:45 Europe/Berlin] 220
+[12-Sep-2022 21:08:45 Europe/Berlin] 223 $files Array
+(
+    [0] => img.png
+)
+
+[12-Sep-2022 21:08:45 Europe/Berlin] 225 $item img.png $key 0
+[12-Sep-2022 21:08:45 Europe/Berlin] 227SetActive
+[12-Sep-2022 21:08:45 Europe/Berlin] 235 FOREACHE localhost:8080\SICONG\\img\adjuntos\diario\img.png
+[12-Sep-2022 21:12:47 Europe/Berlin] 6 visualizar diario
+[12-Sep-2022 21:12:47 Europe/Berlin] 29 $files  Files img.png
+[12-Sep-2022 21:12:47 Europe/Berlin] 35 $adjuntos["files"] img.png
+[12-Sep-2022 21:12:47 Europe/Berlin] 38 $files Array
+(
+    [0] => img.png
+)
+
+[12-Sep-2022 21:12:47 Europe/Berlin] 220
+[12-Sep-2022 21:12:47 Europe/Berlin] 223 $files Array
+(
+    [0] => img.png
+)
+
+[12-Sep-2022 21:12:47 Europe/Berlin] 225 $item img.png $key 0
+[12-Sep-2022 21:12:47 Europe/Berlin] 227SetActive
+[12-Sep-2022 21:12:47 Europe/Berlin] 235 FOREACHE http://localhost/Project/sicong\img\adjuntos\diario\img.png
+[12-Sep-2022 21:13:07 Europe/Berlin] 6 visualizar diario
+[12-Sep-2022 21:13:07 Europe/Berlin] 29 $files  Files img.png
+[12-Sep-2022 21:13:07 Europe/Berlin] 35 $adjuntos["files"] img.png
+[12-Sep-2022 21:13:07 Europe/Berlin] 38 $files Array
+(
+    [0] => img.png
+)
+
+[12-Sep-2022 21:13:07 Europe/Berlin] 220
+[12-Sep-2022 21:13:07 Europe/Berlin] 223 $files Array
+(
+    [0] => img.png
+)
+
+[12-Sep-2022 21:13:07 Europe/Berlin] 225 $item img.png $key 0
+[12-Sep-2022 21:13:07 Europe/Berlin] 227SetActive
+[12-Sep-2022 21:13:07 Europe/Berlin] 235 FOREACHE http://localhost/Project/sicong\img\adjuntos\diario\img.png
+[12-Sep-2022 21:16:34 Europe/Berlin] 6 visualizar diario
+[12-Sep-2022 21:16:34 Europe/Berlin] 29 $files  Files img.png
+[12-Sep-2022 21:16:34 Europe/Berlin] 35 $adjuntos["files"] img.png
+[12-Sep-2022 21:16:34 Europe/Berlin] 38 $files Array
+(
+    [0] => img.png
+)
+
+[12-Sep-2022 21:16:34 Europe/Berlin] 220
+[12-Sep-2022 21:16:34 Europe/Berlin] 223 $files Array
+(
+    [0] => img.png
+)
+
+[12-Sep-2022 21:16:34 Europe/Berlin] 225 $item img.png $key 0
+[12-Sep-2022 21:16:34 Europe/Berlin] 227SetActive
+[12-Sep-2022 21:16:34 Europe/Berlin] 235 FOREACHE http:\\localhost\Project\sicong\img\adjuntos\diario\img.png
+[12-Sep-2022 21:21:35 Europe/Berlin] 6 visualizar diario
+[12-Sep-2022 21:21:35 Europe/Berlin] 29 $files  Files img.png
+[12-Sep-2022 21:21:35 Europe/Berlin] 35 $adjuntos["files"] img.png
+[12-Sep-2022 21:21:35 Europe/Berlin] 38 $files Array
+(
+    [0] => img.png
+)
+
+[12-Sep-2022 21:21:35 Europe/Berlin] 220
+[12-Sep-2022 21:21:35 Europe/Berlin] 223 $files Array
+(
+    [0] => img.png
+)
+
+[12-Sep-2022 21:21:35 Europe/Berlin] 225 $item img.png $key 0
+[12-Sep-2022 21:21:35 Europe/Berlin] 227SetActive
+[12-Sep-2022 21:21:35 Europe/Berlin] 235 FOREACHE http:\\localhost\Project\sicong\img\adjuntos\diario\img.png
+[12-Sep-2022 21:28:19 Europe/Berlin] 6 visualizar diario
+[12-Sep-2022 21:28:19 Europe/Berlin] 29 $files  Files img.png
+[12-Sep-2022 21:28:19 Europe/Berlin] 35 $adjuntos["files"] img.png
+[12-Sep-2022 21:28:19 Europe/Berlin] 38 $files Array
+(
+    [0] => img.png
+)
+
+[12-Sep-2022 21:28:19 Europe/Berlin] 220
+[12-Sep-2022 21:28:19 Europe/Berlin] 223 $files Array
+(
+    [0] => img.png
+)
+
+[12-Sep-2022 21:28:19 Europe/Berlin] 225 $item img.png $key 0
+[12-Sep-2022 21:28:19 Europe/Berlin] 227SetActive
+[12-Sep-2022 21:28:19 Europe/Berlin] 235 FOREACHE http:\\localhost\Project\sicong\img\adjuntos\diario\img.png
+[12-Sep-2022 21:29:30 Europe/Berlin] 6 visualizar diario
+[12-Sep-2022 21:29:30 Europe/Berlin] 29 $files  Files img.png
+[12-Sep-2022 21:29:30 Europe/Berlin] 35 $adjuntos["files"] img.png
+[12-Sep-2022 21:29:30 Europe/Berlin] 38 $files Array
+(
+    [0] => img.png
+)
+
+[12-Sep-2022 21:29:30 Europe/Berlin] 220
+[12-Sep-2022 21:29:30 Europe/Berlin] 223 $files Array
+(
+    [0] => img.png
+)
+
+[12-Sep-2022 21:29:30 Europe/Berlin] 225 $item img.png $key 0
+[12-Sep-2022 21:29:30 Europe/Berlin] 227SetActive
+[12-Sep-2022 21:29:30 Europe/Berlin] 235 FOREACHE http:\\localhost\Project\sicong\img\adjuntos\diario\img.png
+[12-Sep-2022 21:30:18 Europe/Berlin] 6 visualizar diario
+[12-Sep-2022 21:30:18 Europe/Berlin] 29 $files  Files img.png
+[12-Sep-2022 21:30:18 Europe/Berlin] 35 $adjuntos["files"] img.png
+[12-Sep-2022 21:30:18 Europe/Berlin] 38 $files Array
+(
+    [0] => img.png
+)
+
+[12-Sep-2022 21:30:18 Europe/Berlin] 220
+[12-Sep-2022 21:30:18 Europe/Berlin] 223 $files Array
+(
+    [0] => img.png
+)
+
+[12-Sep-2022 21:30:18 Europe/Berlin] 225 $item img.png $key 0
+[12-Sep-2022 21:30:18 Europe/Berlin] 227SetActive
+[12-Sep-2022 21:30:18 Europe/Berlin] 235 FOREACHE http:\\localhost\Project\sicong\img\adjuntos\diario\img.png
+[12-Sep-2022 21:34:18 Europe/Berlin] 6 visualizar diario
+[12-Sep-2022 21:34:18 Europe/Berlin] 29 $files  Files img.png
+[12-Sep-2022 21:34:18 Europe/Berlin] 35 $adjuntos["files"] img.png
+[12-Sep-2022 21:34:18 Europe/Berlin] 38 $files Array
+(
+    [0] => img.png
+)
+
+[12-Sep-2022 21:34:18 Europe/Berlin] 220
+[12-Sep-2022 21:34:18 Europe/Berlin] 223 $files Array
+(
+    [0] => img.png
+)
+
+[12-Sep-2022 21:34:18 Europe/Berlin] 225 $item img.png $key 0
+[12-Sep-2022 21:34:18 Europe/Berlin] 227SetActive
+[12-Sep-2022 21:34:18 Europe/Berlin] 235 FOREACHE http:\\localhost\Project\sicong\img\adjuntos\diario\img.png
+[12-Sep-2022 21:38:58 Europe/Berlin] 6 visualizar diario
+[12-Sep-2022 21:38:58 Europe/Berlin] 29 $files  Files img.png
+[12-Sep-2022 21:38:58 Europe/Berlin] 35 $adjuntos["files"] img.png
+[12-Sep-2022 21:38:58 Europe/Berlin] 38 $files Array
+(
+    [0] => img.png
+)
+
+[12-Sep-2022 21:38:58 Europe/Berlin] 220
+[12-Sep-2022 21:38:58 Europe/Berlin] 223 $files Array
+(
+    [0] => img.png
+)
+
+[12-Sep-2022 21:38:58 Europe/Berlin] 225 $item img.png $key 0
+[12-Sep-2022 21:38:58 Europe/Berlin] 227SetActive
+[12-Sep-2022 21:38:58 Europe/Berlin] 235 FOREACHE http:\\localhost\Project\sicong\img\adjuntos\diario\img.png
+[12-Sep-2022 21:41:47 Europe/Berlin] 6 visualizar diario
+[12-Sep-2022 21:41:47 Europe/Berlin] 29 $files  Files img.png
+[12-Sep-2022 21:41:47 Europe/Berlin] 35 $adjuntos["files"] img.png
+[12-Sep-2022 21:41:47 Europe/Berlin] 38 $files Array
+(
+    [0] => img.png
+)
+
+[12-Sep-2022 21:41:47 Europe/Berlin] 225
+[12-Sep-2022 21:41:47 Europe/Berlin] 228 $files Array
+(
+    [0] => img.png
+)
+
+[12-Sep-2022 21:41:47 Europe/Berlin] 230 $item img.png $key 0
+[12-Sep-2022 21:41:47 Europe/Berlin] 232SetActive
+[12-Sep-2022 21:41:47 Europe/Berlin] 240 FOREACHE http:\\localhost\Project\sicong\img\adjuntos\diario\img.png
+[12-Sep-2022 21:43:41 Europe/Berlin] 6 visualizar diario
+[12-Sep-2022 21:43:41 Europe/Berlin] 29 $files  Files img.png
+[12-Sep-2022 21:43:41 Europe/Berlin] 35 $adjuntos["files"] img.png
+[12-Sep-2022 21:43:41 Europe/Berlin] 38 $files Array
+(
+    [0] => img.png
+)
+
+[12-Sep-2022 21:43:41 Europe/Berlin] 225
+[12-Sep-2022 21:43:41 Europe/Berlin] 228 $files Array
+(
+    [0] => img.png
+)
+
+[12-Sep-2022 21:43:41 Europe/Berlin] 230 $item img.png $key 0
+[12-Sep-2022 21:43:41 Europe/Berlin] 232SetActive
+[12-Sep-2022 21:43:41 Europe/Berlin] 240 FOREACHE http:\\localhost\Project\sicong\img\adjuntos\diario\img.png
+[12-Sep-2022 21:52:41 Europe/Berlin] 6 visualizar diario
+[12-Sep-2022 21:52:41 Europe/Berlin] 29 $files  Files img.png
+[12-Sep-2022 21:52:41 Europe/Berlin] 35 $adjuntos["files"] img.png
+[12-Sep-2022 21:52:41 Europe/Berlin] 38 $files Array
+(
+    [0] => img.png
+)
+
+[12-Sep-2022 21:52:41 Europe/Berlin] 225
+[12-Sep-2022 21:52:41 Europe/Berlin] 228 $files Array
+(
+    [0] => img.png
+)
+
+[12-Sep-2022 21:52:41 Europe/Berlin] 230 $item img.png $key 0
+[12-Sep-2022 21:52:41 Europe/Berlin] 232SetActive
+[12-Sep-2022 21:52:41 Europe/Berlin] 240 FOREACHE http:\\localhost\Project\sicong\img\adjuntos\diario\img.png
+[12-Sep-2022 22:19:34 Europe/Berlin] 6 visualizar diario
+[12-Sep-2022 22:19:34 Europe/Berlin] 29 $files  Files img.png
+[12-Sep-2022 22:19:34 Europe/Berlin] 35 $adjuntos["files"] img.png
+[12-Sep-2022 22:19:34 Europe/Berlin] 38 $files Array
+(
+    [0] => img.png
+)
+
+[12-Sep-2022 22:19:34 Europe/Berlin] 225
+[12-Sep-2022 22:19:34 Europe/Berlin] 228 $files Array
+(
+    [0] => img.png
+)
+
+[12-Sep-2022 22:19:34 Europe/Berlin] 230 $item img.png $key 0
+[12-Sep-2022 22:19:34 Europe/Berlin] 232SetActive
+[12-Sep-2022 22:19:34 Europe/Berlin] 240 FOREACHE http:\\localhost\Project\sicong\img\adjuntos\diario\img.png
+[12-Sep-2022 22:20:11 Europe/Berlin] 6 visualizar diario
+[12-Sep-2022 22:20:11 Europe/Berlin] 29 $files  Files img.png
+[12-Sep-2022 22:20:11 Europe/Berlin] 35 $adjuntos["files"] img.png
+[12-Sep-2022 22:20:11 Europe/Berlin] 38 $files Array
+(
+    [0] => img.png
+)
+
+[12-Sep-2022 22:20:11 Europe/Berlin] 225
+[12-Sep-2022 22:20:11 Europe/Berlin] 228 $files Array
+(
+    [0] => img.png
+)
+
+[12-Sep-2022 22:20:11 Europe/Berlin] 230 $item img.png $key 0
+[12-Sep-2022 22:20:11 Europe/Berlin] 232SetActive
+[12-Sep-2022 22:20:11 Europe/Berlin] 240 FOREACHE http:\\localhost\Project\sicong\img\adjuntos\diario\img.png
+[12-Sep-2022 22:22:49 Europe/Berlin] 6 visualizar diario
+[12-Sep-2022 22:22:49 Europe/Berlin] 29 $files  Files img.png
+[12-Sep-2022 22:22:49 Europe/Berlin] 35 $adjuntos["files"] img.png
+[12-Sep-2022 22:22:49 Europe/Berlin] 38 $files Array
+(
+    [0] => img.png
+)
+
+[12-Sep-2022 22:22:49 Europe/Berlin] 225
+[12-Sep-2022 22:22:49 Europe/Berlin] 228 $files Array
+(
+    [0] => img.png
+)
+
+[12-Sep-2022 22:22:49 Europe/Berlin] 230 $item img.png $key 0
+[12-Sep-2022 22:22:49 Europe/Berlin] 232SetActive
+[12-Sep-2022 22:22:49 Europe/Berlin] 240 FOREACHE http:\\localhost\Project\sicong\img\adjuntos\diario\img.png
+[12-Sep-2022 22:24:27 Europe/Berlin] 6 visualizar diario
+[12-Sep-2022 22:24:27 Europe/Berlin] 29 $files  Files img.png
+[12-Sep-2022 22:24:27 Europe/Berlin] 35 $adjuntos["files"] img.png
+[12-Sep-2022 22:24:27 Europe/Berlin] 38 $files Array
+(
+    [0] => img.png
+)
+
+[12-Sep-2022 22:24:27 Europe/Berlin] 225
+[12-Sep-2022 22:24:27 Europe/Berlin] 228 $files Array
+(
+    [0] => img.png
+)
+
+[12-Sep-2022 22:24:27 Europe/Berlin] 230 $item img.png $key 0
+[12-Sep-2022 22:24:27 Europe/Berlin] 232SetActive
+[12-Sep-2022 22:24:27 Europe/Berlin] 240 FOREACHE http:\\localhost\Project\sicong\img\adjuntos\diario\img.png
+[12-Sep-2022 22:26:52 Europe/Berlin] 6 visualizar diario
+[12-Sep-2022 22:26:52 Europe/Berlin] 29 $files  Files img.png
+[12-Sep-2022 22:26:52 Europe/Berlin] 35 $adjuntos["files"] img.png
+[12-Sep-2022 22:26:52 Europe/Berlin] 38 $files Array
+(
+    [0] => img.png
+)
+
+[12-Sep-2022 22:26:52 Europe/Berlin] 225
+[12-Sep-2022 22:26:52 Europe/Berlin] 228 $files Array
+(
+    [0] => img.png
+)
+
+[12-Sep-2022 22:26:52 Europe/Berlin] 230 $item img.png $key 0
+[12-Sep-2022 22:26:52 Europe/Berlin] 232SetActive
+[12-Sep-2022 22:26:52 Europe/Berlin] 240 FOREACHE http:\\localhost\Project\sicong\img\adjuntos\diario\img.png
+[12-Sep-2022 22:28:00 Europe/Berlin] 6 visualizar diario
+[12-Sep-2022 22:28:00 Europe/Berlin] 221
+[12-Sep-2022 22:28:00 Europe/Berlin] 224 $files Array
+(
+    [0] => img.png
+)
+
+[12-Sep-2022 22:28:00 Europe/Berlin] 226 $item img.png $key 0
+[12-Sep-2022 22:28:00 Europe/Berlin] 228SetActive
+[12-Sep-2022 22:28:00 Europe/Berlin] 236 FOREACHE http:\\localhost\Project\sicong\img\adjuntos\diario\img.png
+[12-Sep-2022 22:28:53 Europe/Berlin] 6 visualizar diario
+[12-Sep-2022 22:28:53 Europe/Berlin] 221
+[12-Sep-2022 22:28:53 Europe/Berlin] 224 $files Array
+(
+    [0] => img.png
+)
+
+[12-Sep-2022 22:28:53 Europe/Berlin] 226 $item img.png $key 0
+[12-Sep-2022 22:28:53 Europe/Berlin] 228SetActive
+[12-Sep-2022 22:28:53 Europe/Berlin] 236 FOREACHE http:\\localhost\Project\sicong\img\adjuntos\diario\img.png
+[12-Sep-2022 22:29:02 Europe/Berlin] 6 visualizar diario
+[12-Sep-2022 22:29:02 Europe/Berlin] 221
+[12-Sep-2022 22:29:02 Europe/Berlin] 224 $files Array
+(
+    [0] => img.png
+)
+
+[12-Sep-2022 22:29:02 Europe/Berlin] 226 $item img.png $key 0
+[12-Sep-2022 22:29:02 Europe/Berlin] 228SetActive
+[12-Sep-2022 22:29:02 Europe/Berlin] 236 FOREACHE http:\\localhost\Project\sicong\img\adjuntos\diario\img.png
+[12-Sep-2022 22:32:52 Europe/Berlin] 6 visualizar diario
+[12-Sep-2022 22:32:52 Europe/Berlin] 221
+[12-Sep-2022 22:32:52 Europe/Berlin] 225 $item img.png $key 0
+[12-Sep-2022 22:32:52 Europe/Berlin] 235 FOREACHE http:\\localhost\Project\sicong\img\adjuntos\diario\img.png
+[12-Sep-2022 22:35:06 Europe/Berlin] 6 visualizar diario
+[12-Sep-2022 22:35:06 Europe/Berlin] 221
+[12-Sep-2022 22:35:06 Europe/Berlin] 225 $item img.png $key 0
+[12-Sep-2022 22:35:06 Europe/Berlin] 235 FOREACHE http:\\localhost\Project\sicong\img\adjuntos\diario\img.png
+[12-Sep-2022 22:35:47 Europe/Berlin] 6 visualizar diario
+[12-Sep-2022 22:35:47 Europe/Berlin] 221
+[12-Sep-2022 22:35:47 Europe/Berlin] 225 $item img.png $key 0
+[12-Sep-2022 22:35:47 Europe/Berlin] 235 FOREACHE http:\\localhost\Project\sicong\img\adjuntos\diario\img.png
+[12-Sep-2022 22:36:10 Europe/Berlin] 6 visualizar diario
+[12-Sep-2022 22:36:10 Europe/Berlin] 221
+[12-Sep-2022 22:36:10 Europe/Berlin] 225 $item img.png $key 0
+[12-Sep-2022 22:36:10 Europe/Berlin] 235 FOREACHE http:\\localhost\Project\sicong\img\adjuntos\diario\img.png
+[12-Sep-2022 22:37:02 Europe/Berlin] 6 visualizar diario
+[12-Sep-2022 22:37:02 Europe/Berlin] 221
+[12-Sep-2022 22:37:02 Europe/Berlin] 225 $item img.png $key 0
+[12-Sep-2022 22:37:02 Europe/Berlin] 235 FOREACHE http:\\localhost\Project\sicong\img\adjuntos\diario\img.png
+[12-Sep-2022 22:37:03 Europe/Berlin] 6 visualizar diario
+[12-Sep-2022 22:37:03 Europe/Berlin] 221
+[12-Sep-2022 22:37:03 Europe/Berlin] 225 $item img.png $key 0
+[12-Sep-2022 22:37:03 Europe/Berlin] 235 FOREACHE http:\\localhost\Project\sicong\img\adjuntos\diario\img.png
+[12-Sep-2022 22:37:04 Europe/Berlin] 6 visualizar diario
+[12-Sep-2022 22:37:04 Europe/Berlin] 221
+[12-Sep-2022 22:37:04 Europe/Berlin] 225 $item img.png $key 0
+[12-Sep-2022 22:37:04 Europe/Berlin] 235 FOREACHE http:\\localhost\Project\sicong\img\adjuntos\diario\img.png
+[12-Sep-2022 22:37:05 Europe/Berlin] 6 visualizar diario
+[12-Sep-2022 22:37:05 Europe/Berlin] 221
+[12-Sep-2022 22:37:05 Europe/Berlin] 225 $item img.png $key 0
+[12-Sep-2022 22:37:05 Europe/Berlin] 235 FOREACHE http:\\localhost\Project\sicong\img\adjuntos\diario\img.png
+[12-Sep-2022 22:37:06 Europe/Berlin] 6 visualizar diario
+[12-Sep-2022 22:37:06 Europe/Berlin] 221
+[12-Sep-2022 22:37:06 Europe/Berlin] 225 $item img.png $key 0
+[12-Sep-2022 22:37:06 Europe/Berlin] 235 FOREACHE http:\\localhost\Project\sicong\img\adjuntos\diario\img.png
+[12-Sep-2022 22:37:07 Europe/Berlin] 6 visualizar diario
+[12-Sep-2022 22:37:07 Europe/Berlin] 221
+[12-Sep-2022 22:37:07 Europe/Berlin] 225 $item img.png $key 0
+[12-Sep-2022 22:37:07 Europe/Berlin] 235 FOREACHE http:\\localhost\Project\sicong\img\adjuntos\diario\img.png
+[12-Sep-2022 22:37:23 Europe/Berlin] 6 visualizar diario
+[12-Sep-2022 22:37:23 Europe/Berlin] 221
+[12-Sep-2022 22:37:23 Europe/Berlin] 225 $item img.png $key 0
+[12-Sep-2022 22:37:23 Europe/Berlin] 235 FOREACHE http:\\localhost\Project\sicong\img\adjuntos\diario\img.png
+[12-Sep-2022 22:44:54 Europe/Berlin] 6 visualizar diario
+[12-Sep-2022 22:44:54 Europe/Berlin] 221
+[12-Sep-2022 22:44:54 Europe/Berlin] 225 $item sin fondo.png $key 0
+[12-Sep-2022 22:44:54 Europe/Berlin] 237 FOREACHE http:\\localhost\Project\sicong\img\adjuntos\diario\sin fondo.png
+[12-Sep-2022 22:44:54 Europe/Berlin] 225 $item img.png $key 1
+[12-Sep-2022 22:44:54 Europe/Berlin] 237 FOREACHE http:\\localhost\Project\sicong\img\adjuntos\diario\img.png
+[12-Sep-2022 22:47:30 Europe/Berlin] 6 visualizar diario
+[12-Sep-2022 22:47:30 Europe/Berlin] 221
+[12-Sep-2022 22:47:30 Europe/Berlin] 225 $item sin fondo.png $key 0
+[12-Sep-2022 22:47:30 Europe/Berlin] 227SetActive
+[12-Sep-2022 22:47:30 Europe/Berlin] 237 FOREACHE http:\\localhost\Project\sicong\img\adjuntos\diario\sin fondo.png
+[12-Sep-2022 22:47:30 Europe/Berlin] 225 $item img.png $key 1
+[12-Sep-2022 22:47:30 Europe/Berlin] 237 FOREACHE http:\\localhost\Project\sicong\img\adjuntos\diario\img.png
+[12-Sep-2022 22:49:10 Europe/Berlin] 6 visualizar diario
+[12-Sep-2022 22:49:10 Europe/Berlin] 221
+[12-Sep-2022 22:49:10 Europe/Berlin] 225 $item sin fondo.png $key 0
+[12-Sep-2022 22:49:10 Europe/Berlin] 227SetActive
+[12-Sep-2022 22:49:10 Europe/Berlin] 237 FOREACHE http:\\localhost\Project\sicong\img\adjuntos\diario\sin fondo.png
+[12-Sep-2022 22:49:10 Europe/Berlin] 225 $item img.png $key 1
+[12-Sep-2022 22:49:10 Europe/Berlin] 237 FOREACHE http:\\localhost\Project\sicong\img\adjuntos\diario\img.png
+[12-Sep-2022 22:49:10 Europe/Berlin] 225 $item NodeJS.txt $key 2
+[12-Sep-2022 22:50:24 Europe/Berlin] 6 visualizar diario
+[12-Sep-2022 22:50:24 Europe/Berlin] 221
+[12-Sep-2022 22:50:24 Europe/Berlin] 225 $item sin fondo.png $key 0
+[12-Sep-2022 22:50:24 Europe/Berlin] 227SetActive
+[12-Sep-2022 22:50:24 Europe/Berlin] 237 FOREACHE http:\\localhost\Project\sicong\img\adjuntos\diario\sin fondo.png
+[12-Sep-2022 22:50:24 Europe/Berlin] 225 $item img.png $key 1
+[12-Sep-2022 22:50:24 Europe/Berlin] 237 FOREACHE http:\\localhost\Project\sicong\img\adjuntos\diario\img.png
+[12-Sep-2022 22:50:24 Europe/Berlin] 225 $item NodeJS.txt $key 2
+[12-Sep-2022 22:50:45 Europe/Berlin] 6 visualizar diario
+[12-Sep-2022 22:50:45 Europe/Berlin] 221
+[12-Sep-2022 22:50:45 Europe/Berlin] 225 $item sin fondo.png $key 0
+[12-Sep-2022 22:50:45 Europe/Berlin] 227SetActive
+[12-Sep-2022 22:50:45 Europe/Berlin] 237 FOREACHE http:\\localhost\Project\sicong\img\adjuntos\diario\sin fondo.png
+[12-Sep-2022 22:50:45 Europe/Berlin] 225 $item img.png $key 1
+[12-Sep-2022 22:50:45 Europe/Berlin] 237 FOREACHE http:\\localhost\Project\sicong\img\adjuntos\diario\img.png
+[12-Sep-2022 22:52:16 Europe/Berlin] 6 visualizar diario
+[12-Sep-2022 22:52:16 Europe/Berlin] 221
+[12-Sep-2022 22:52:16 Europe/Berlin] 225 $item sin fondo.png $key 0
+[12-Sep-2022 22:52:16 Europe/Berlin] 227SetActive
+[12-Sep-2022 22:52:16 Europe/Berlin] 237 FOREACHE http:\\localhost\Project\sicong\img\adjuntos\diario\sin fondo.png
+[12-Sep-2022 22:52:16 Europe/Berlin] 225 $item img.png $key 1
+[12-Sep-2022 22:52:16 Europe/Berlin] 237 FOREACHE http:\\localhost\Project\sicong\img\adjuntos\diario\img.png
+[12-Sep-2022 22:53:43 Europe/Berlin] 6 visualizar diario
+[12-Sep-2022 22:53:43 Europe/Berlin] 221
+[12-Sep-2022 22:53:43 Europe/Berlin] 225 $item sin fondo.png $key 0
+[12-Sep-2022 22:53:43 Europe/Berlin] 227SetActive
+[12-Sep-2022 22:53:43 Europe/Berlin] 237 FOREACHE http:\\localhost\Project\sicong\img\adjuntos\diario\sin fondo.png
+[12-Sep-2022 22:53:43 Europe/Berlin] 225 $item img.png $key 1
+[12-Sep-2022 22:53:43 Europe/Berlin] 237 FOREACHE http:\\localhost\Project\sicong\img\adjuntos\diario\img.png
+[12-Sep-2022 22:54:04 Europe/Berlin] 6 visualizar diario
+[12-Sep-2022 22:54:04 Europe/Berlin] 221
+[12-Sep-2022 22:54:04 Europe/Berlin] 225 $item sin fondo.png $key 0
+[12-Sep-2022 22:54:04 Europe/Berlin] 227SetActive
+[12-Sep-2022 22:54:04 Europe/Berlin] 237 FOREACHE http:\\localhost\Project\sicong\img\adjuntos\diario\sin fondo.png
+[12-Sep-2022 22:54:04 Europe/Berlin] 225 $item img.png $key 1
+[12-Sep-2022 22:54:04 Europe/Berlin] 237 FOREACHE http:\\localhost\Project\sicong\img\adjuntos\diario\img.png
+[12-Sep-2022 22:54:05 Europe/Berlin] 6 visualizar diario
+[12-Sep-2022 22:54:05 Europe/Berlin] 221
+[12-Sep-2022 22:54:05 Europe/Berlin] 225 $item sin fondo.png $key 0
+[12-Sep-2022 22:54:05 Europe/Berlin] 227SetActive
+[12-Sep-2022 22:54:05 Europe/Berlin] 237 FOREACHE http:\\localhost\Project\sicong\img\adjuntos\diario\sin fondo.png
+[12-Sep-2022 22:54:05 Europe/Berlin] 225 $item img.png $key 1
+[12-Sep-2022 22:54:05 Europe/Berlin] 237 FOREACHE http:\\localhost\Project\sicong\img\adjuntos\diario\img.png
+[12-Sep-2022 22:54:42 Europe/Berlin] 6 visualizar diario
+[12-Sep-2022 22:54:42 Europe/Berlin] 221
+[12-Sep-2022 22:54:42 Europe/Berlin] 225 $item sin fondo.png $key 0
+[12-Sep-2022 22:54:42 Europe/Berlin] 227SetActive
+[12-Sep-2022 22:54:42 Europe/Berlin] 237 FOREACHE http:\\localhost\Project\sicong\img\adjuntos\diario\sin fondo.png
+[12-Sep-2022 22:54:42 Europe/Berlin] 225 $item img.png $key 1
+[12-Sep-2022 22:54:42 Europe/Berlin] 237 FOREACHE http:\\localhost\Project\sicong\img\adjuntos\diario\img.png
+[12-Sep-2022 22:54:42 Europe/Berlin] 225 $item NodeJs.txt $key 2
+[12-Sep-2022 22:56:41 Europe/Berlin] 6 visualizar diario
+[12-Sep-2022 22:56:41 Europe/Berlin] 221
+[12-Sep-2022 22:56:41 Europe/Berlin] 225 $item sin fondo.png $key 0
+[12-Sep-2022 22:56:41 Europe/Berlin] 227SetActive
+[12-Sep-2022 22:56:41 Europe/Berlin] 238 FOREACHE http:\\localhost\Project\sicong\img\adjuntos\diario\sin fondo.png
+[12-Sep-2022 22:56:41 Europe/Berlin] 225 $item img.png $key 1
+[12-Sep-2022 22:56:41 Europe/Berlin] 238 FOREACHE http:\\localhost\Project\sicong\img\adjuntos\diario\img.png
+[12-Sep-2022 22:56:41 Europe/Berlin] 225 $item NodeJs.txt $key 2

@@ -1,4 +1,4 @@
-<?php  require_once ('../../config/conexion.php');
+<?php  require_once ('../../../config/conexion.php');
     
 $id=$_GET['id'];
 $sql_evento="SELECT re.id AS id, u.nombre AS usuario, u.cargo, e.nombre AS empresa,e.detalle as detalles, re.fecha_apertura as fecha, ev.nombre as evento, re.id as numero, e.foto AS foto, re.evidencia, de.det_evento as detalle, re.nom_dirigido as para, re.cargo_dirigido as cargop , u.cedula , re.det_actuacion_o as actuacion, re.acciones_tomadas, re.recomendaciones
@@ -19,7 +19,7 @@ $sql_evento="SELECT re.id AS id, u.nombre AS usuario, u.cargo, e.nombre AS empre
           AND da.id_actuacion=a.id
           AND re.id=$id";
 //YEISON
-  $sql_adjuntos = "SELECT files FROM adjuntos_eventos WHERE id_reporte = $id";
+  $sql_adjuntos = "SELECT files, ruta FROM adjuntos_eventos WHERE id_reporte = $id";
 //YEISON
   
   $consulta_reporte = mysqli_query($conexion,$sql_evento);
@@ -48,7 +48,7 @@ $sql_evento="SELECT re.id AS id, u.nombre AS usuario, u.cargo, e.nombre AS empre
   }
 
   $numero=$reporte['numero'];
-  $imagen="../".$reporte['foto'];
+  $imagen="../../".$reporte['foto'];
 
   $fecha_n=$reporte['fecha'];
   $obj =  date_create_from_format('Y-m-d', $fecha_n);
@@ -144,7 +144,7 @@ div.margen{
 <div class="container pagina col-lg-8 col-md-offset-2">
     <div class="row">
     <div class="col-lg-2 col-lg-push-10 col-md-2 col-md-push-0 col-sm-2 col-sm-push-0 col-xs-2 col-xs-push-0">
-         <div class="pull-right"><button class="btn btn-danger oculto-impresion" onclick="window.print()"> <span class="glyphicon glyphicon-print"></span>  IMPRIMIR</button></div>
+         <!-- <div class="pull-right"><button class="btn btn-danger oculto-impresion" onclick="window.print()"> <span class="glyphicon glyphicon-print"></span>  IMPRIMIR</button></div> -->
        </div>
         <div class="col-xs-12">
            
@@ -269,19 +269,19 @@ div.margen{
                           $extension = explode(".",$file);
                           if($extension[1]==='png' || $extension[1]==='jpg' || $extension[1]==='jpeg'):
                       ?>
-                        <li class="lista" style="background-image: url('../../img/icono_img.png');">
+                        <li class="lista" style="background-image: url('../../../img/icono_img.png');">
                           <span><?=$file?></span>
                         </li>
                       <?php
                         elseif($extension[1]==='docx' || $extension[1]==='doc' || $extension[1]==='xls' || $extension[1]==='xlsx' || $extension[1]==='pptx' || $extension[1] ==='ppt' || $extension[1]==='pdf' || $extension[1]==='txt'):
                       ?>
-                         <li class="lista" style="background-image: url('../../img/archivo.png');">
+                         <li class="lista" style="background-image: url('../../../img/archivo.png');">
                           <span><?=$file?></span>
                         </li>
                       <?php
                         elseif($extension[1] === 'mp4' || $extension[1] === 'mkv' || $extension[1] === 'avi' || $extension[1] === 'mov'):
                       ?>
-                        <li class="lista" style="background-image: url('../../img/camara-de-video.png');">
+                        <li class="lista" style="background-image: url('../../../img/camara-de-video.png');">
                           <span><?=$file?></span>
                         </li>
                       <?php

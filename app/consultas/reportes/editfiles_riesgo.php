@@ -109,7 +109,7 @@ if (!isset($_FILES["newfiles"]) && isset($_POST['oldfiles'])) {
     if (substr_count($oldFiles, ',', 0, strlen($oldFiles)) !== 0) {
         $oldFilesArray = explode(",",$oldFiles);
     } else {
-        Array_push($oldFilesArray,$oldFiles);
+        array_push($oldFilesArray,$oldFiles);
     }
     $sql_archivos = "SELECT files, ruta FROM adjuntos_riesgos WHERE id_reporte = $controlriesgo";
     $resultado = mysqli_query($conexion,$sql_archivos);
@@ -258,7 +258,7 @@ function verificarchivosold($controlriesgo,$conexion) {
         if (substr_count($oldFiles, ',', 0, strlen($oldFiles)) !== 0) {
             $oldFilesArray = explode(",",$oldFiles);
         } else {
-            Array_push($oldFilesArray,$oldFiles);
+            array_push($oldFilesArray,$oldFiles);
         }
 
         if (substr_count($result['files'], ',', 0, strlen($result['files'])) !== 0) {

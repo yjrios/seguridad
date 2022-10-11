@@ -61,7 +61,7 @@
                 render:function(mData, type, row)
                 {
                 var d = mData.id
-                  return "<button href='#' ><span class='fa fa-eye'></span></button> &nbsp;&nbsp;&nbsp;<button name='editarE' id='editarE' class='editarE'  title='Editar' data-toggle='modal' data-target='#modaleventomod'>&nbsp;<span class='icon ion-edit'></span></button> &nbsp;&nbsp;&nbsp;<button title='Imprimir' onclick=window.open('reportes/eventosPDF.php?id="+d+"','_blank')  ><span class='fa fa-print'></span></button>";
+                  return "<button title='Display' onclick=window.open('consultas/visualizar/visualizar_evento.php?id="+d+"','_blank')><span class='fa fa-eye'></span></button> &nbsp;&nbsp;&nbsp;<button name='editarE' id='editarE' class='editarE'  title='Editar' data-toggle='modal' data-target='#modaleventomod'>&nbsp;<span class='icon ion-edit'></span></button> &nbsp;&nbsp;&nbsp;<button title='Imprimir' onclick=window.open('reportes/eventosPDF.php?id="+d+"','_blank')  ><span class='fa fa-print'></span></button>";
                  },
                
               } 
@@ -513,7 +513,7 @@
                 render:function(mData, type, row)
                 {
                   var d= mData.id
-                  return "<button name=''><span class='fa fa-eye'></span></button> &nbsp;&nbsp;&nbsp;<button title='Editar' name='editar' id='editar' class='editar' data-toggle='modal' data-target='#modaldiariomod'>&nbsp;<span class='icon ion-edit'></span></button> &nbsp;&nbsp;&nbsp;<button title='Imprimir' onclick=window.open('reportes/diariosPDF.php?id="+d+"','_blank')  ><span class='fa fa-print'></span></button>";
+                  return "<button title='Display' onclick=window.open('consultas/visualizar/visualizar_diario.php?id="+d+"','_blank')><span class='fa fa-eye'></span></button> &nbsp;&nbsp;&nbsp;<button title='Editar' name='editar' id='editar' class='editar' data-toggle='modal' data-target='#modaldiariomod'>&nbsp;<span class='icon ion-edit'></span></button> &nbsp;&nbsp;&nbsp;<button title='Imprimir' onclick=window.open('reportes/diariosPDF.php?id="+d+"','_blank')  ><span class='fa fa-print'></span></button>";
                 },
               }
           ],
@@ -915,7 +915,7 @@
                   render:function(mData, type, row)
                   {
                      var d = mData.id 
-                     return "<button href='#' ><span class='fa fa-eye'></span></button> &nbsp;&nbsp;&nbsp;<button title='Editar' class='editar' href='#' data-toggle='modal' data-target='#modalriesgomod'>&nbsp;<span class='icon ion-edit'></span></button> &nbsp;&nbsp;&nbsp;<button title='Imprimir' onclick=window.open('reportes/riesgosPDF.php?id="+d+"','_blank')  ><span class='fa fa-print'></span></button>";
+                     return "<button title='Display' onclick=window.open('consultas/visualizar/visualizar_riesgo.php?id="+d+"','_blank')><span class='fa fa-eye'></span></button> &nbsp;&nbsp;&nbsp;<button title='Editar' class='editar' href='#' data-toggle='modal' data-target='#modalriesgomod'>&nbsp;<span class='icon ion-edit'></span></button> &nbsp;&nbsp;&nbsp;<button title='Imprimir' onclick=window.open('reportes/riesgosPDF.php?id="+d+"','_blank')  ><span class='fa fa-print'></span></button>";
                       },
                 }
 

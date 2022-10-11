@@ -101,7 +101,7 @@ if (!isset($_FILES["newfiles"]) && isset($_POST['oldfiles'])) {
         $oldFilesArray = explode(",",$oldFiles);
     } else {
         error_log(__LINE__);
-        Array_push($oldFilesArray,$oldFiles);
+        array_push($oldFilesArray,$oldFiles);
     }
     error_log(__LINE__);
     $sql_archivos = "SELECT files, ruta FROM adjuntos_eventos WHERE id_reporte = $controlevento";
@@ -251,7 +251,7 @@ function verificarchivosold($controlevento,$conexion) {
         if (substr_count($oldFiles, ',', 0, strlen($oldFiles)) !== 0) {
             $oldFilesArray = explode(",",$oldFiles);
         } else {
-            Array_push($oldFilesArray,$oldFiles);
+            array_push($oldFilesArray,$oldFiles);
         }
 
         if (substr_count($result['files'], ',', 0, strlen($result['files'])) !== 0) {
